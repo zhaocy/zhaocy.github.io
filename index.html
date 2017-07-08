@@ -416,8 +416,7 @@
 <p>修改后：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">...</div><div class="line">SERVER_PORT=8031</div><div class="line">...</div></pre></td></tr></table></figure>
 <p>5.修改eureka地址<br>修改表ApolloConfigDB.ServerConfig，找到Value为的<a href="http://localhost:8080/eureka/的记录,修改为configservice所在的IP和端口，例如：http://192.168.1.32:8031/eureka/" target="_blank" rel="external">http://localhost:8080/eureka/的记录,修改为configservice所在的IP和端口，例如：http://192.168.1.32:8031/eureka/</a></p>
-<p>###apollo-adminservice</p>
-<p>1.修改application.yml</p>
+<h3 id="apollo-adminservice"><a href="#apollo-adminservice" class="headerlink" title="apollo-adminservice"></a>apollo-adminservice</h3><p>1.修改application.yml</p>
 <p>修改前：</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="attr">spring:</span></div><div class="line"><span class="attr">  application:</span></div><div class="line"><span class="attr">    name:</span> <span class="string">apollo-adminservice</span></div><div class="line"><span class="attr">  profiles:</span></div><div class="line"><span class="attr">    active:</span> <span class="string">$&#123;apollo_profile&#125;</span></div><div class="line"></div><div class="line"><span class="attr">ctrip:</span></div><div class="line"><span class="attr">  appid:</span> <span class="number">100003172</span></div><div class="line">  </div><div class="line"><span class="attr">server:</span></div><div class="line"><span class="attr">  port:</span> <span class="number">8090</span></div><div class="line">  </div><div class="line"><span class="attr">logging:</span></div><div class="line"><span class="attr">  file:</span> <span class="string">/opt/logs/100003172/apollo-adminservice.log</span></div></pre></td></tr></table></figure>
 <p>修改后：</p>
@@ -432,9 +431,7 @@
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">...</div><div class="line">SERVER_PORT=8090</div><div class="line">...</div></pre></td></tr></table></figure>
 <p>修改后：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">...</div><div class="line">SERVER_PORT=8032</div><div class="line">...</div></pre></td></tr></table></figure>
-<p>##在Docker下部署</p>
-<p>#部署</p>
-<blockquote>
+<h2 id="在Docker下部署"><a href="#在Docker下部署" class="headerlink" title="在Docker下部署"></a>在Docker下部署</h2><h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><blockquote>
 <p>从官方直接更新master分支的代码，在不考虑端口冲突的情况下，初始化数据库脚本和修改数据库链接信息，然后执行/scripts/build.sh编译项目,访问项目是没有问题的。步骤如下：</p>
 </blockquote>
 <p><code>准备工作：创建数据库,执行官方的sql。</code></p>
@@ -446,10 +443,8 @@
 <li><p>启动<br>Apollo Config Service和Apollo Admin Service可同时启动。<br><a href="https://github.com/ctripcorp/apollo/wiki/Apollo开发指南#二本地启动" target="_blank" rel="external">启动配置</a></p>
 </li>
 </ul>
-<p>#基于Docker部署</p>
-<p>可参考<a href="https://github.com/ctripcorp/apollo/wiki/分布式部署指南" target="_blank" rel="external">分布式部署指南</a></p>
-<p>##基于Java8环境部署</p>
-<ul>
+<h1 id="基于Docker部署"><a href="#基于Docker部署" class="headerlink" title="基于Docker部署"></a>基于Docker部署</h1><p>可参考<a href="https://github.com/ctripcorp/apollo/wiki/分布式部署指南" target="_blank" rel="external">分布式部署指南</a></p>
+<h2 id="基于Java8环境部署"><a href="#基于Java8环境部署" class="headerlink" title="基于Java8环境部署"></a>基于Java8环境部署</h2><ul>
 <li>上传安装包</li>
 </ul>
 <p>上传安装包至/usr/tomcat_home/apollo_configservice解压。</p>
@@ -478,8 +473,7 @@
 <blockquote>
 <p>./startup.sh</p>
 </blockquote>
-<p>##打镜像包部署</p>
-<p>1.apollo-configservice</p>
+<h2 id="打镜像包部署"><a href="#打镜像包部署" class="headerlink" title="打镜像包部署"></a>打镜像包部署</h2><p>1.apollo-configservice</p>
 <ul>
 <li>修改application.yml</li>
 </ul>
