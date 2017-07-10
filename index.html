@@ -557,8 +557,7 @@
 
       
         
-          
-            <h1 id="注册Github、添加SSH-key-、创建username-github-io"><a href="#注册Github、添加SSH-key-、创建username-github-io" class="headerlink" title="注册Github、添加SSH key 、创建username.github.io"></a>注册Github、添加SSH key 、创建username.github.io</h1><p>注册自然不用多说，直接来添加SSH key，windows可通过Git Bash来执行以下命令生成SSH key</p>
+          <h1 id="注册Github、添加SSH-key-、创建username-github-io"><a href="#注册Github、添加SSH-key-、创建username-github-io" class="headerlink" title="注册Github、添加SSH key 、创建username.github.io"></a>注册Github、添加SSH key 、创建username.github.io</h1><p>注册自然不用多说，直接来添加SSH key，windows可通过Git Bash来执行以下命令生成SSH key</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C <span class="string">"your_email@youremail.com"</span></div></pre></td></tr></table></figure>
 <p>一路回车将id_rsa.pub复制添加到github-settings-ssh keys即可</p>
 <p>创建repository，格式为username.github.io</p>
@@ -569,24 +568,13 @@
 <h2 id="创建文章："><a href="#创建文章：" class="headerlink" title="创建文章："></a>创建文章：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new [layout] &lt;title&gt;</div></pre></td></tr></table></figure>
 <p>启动完成后可通过 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 来访问</p>
 <h1 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="配置_config.yml"></a>配置_config.yml</h1><p>配置一些基本信息就不多说了，直接说怎么配置上传github，打开_config.yml，找到deploy，按照以下内容添加修改即可。</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repository:</span> <span class="string">git@github.com:username/username.github.io.git</span></div><div class="line"><span class="attr">  branch:</span> <span class="string">master</span></div></pre></td></tr></table></figure>
-<p>hexo需执行以下命令,否则上传不到github</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
-<p>执行以下命令部署到github</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo deploy</div></pre></td></tr></table></figure>
-<p>然后访问username.github.io就可以看到效果啦！</p>
-<p>以后每次部署需执行下面三步命令：</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo g</div><div class="line">hexo d</div></pre></td></tr></table></figure>
-<h1 id="绑定独立域名"><a href="#绑定独立域名" class="headerlink" title="绑定独立域名"></a>绑定独立域名</h1><p>在source文件夹新建CNAME文件内容为你的域名即可，例如：kulove.cc，最后将记录类型为CNAME的@、www解析到username.github.io即完成独立域名绑定。</p>
-<h1 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h1><p>ok，到这里hexo的安装已经告一段落了，但俗话说的好，人靠衣装马靠鞍，接下来我们要去换一款主题，这里以NexT为例</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> your-hexo-site</div><div class="line"></div><div class="line">git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure>
-<p>然后将_config.yml里的theme改为next即可。</p>
-<h1 id="资料参考"><a href="#资料参考" class="headerlink" title="资料参考"></a>资料参考</h1><ul>
-<li><a href="https://hexo.io" target="_blank" rel="external">Hexo官方</a></li>
-<li><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">NexT使用文档</a></li>
-</ul>
-
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016-10-04-hexo常用功能/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>

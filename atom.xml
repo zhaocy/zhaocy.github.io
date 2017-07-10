@@ -57,7 +57,7 @@
     <link href="http://yoursite.com/2016-10-04-hexo%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/"/>
     <id>http://yoursite.com/2016-10-04-hexo常用功能/</id>
     <published>2016-10-04T13:40:58.000Z</published>
-    <updated>2017-07-10T14:27:07.000Z</updated>
+    <updated>2017-07-10T15:39:29.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="注册Github、添加SSH-key-、创建username-github-io"><a href="#注册Github、添加SSH-key-、创建username-github-io" class="headerlink" title="注册Github、添加SSH key 、创建username.github.io"></a>注册Github、添加SSH key 、创建username.github.io</h1><p>注册自然不用多说，直接来添加SSH key，windows可通过Git Bash来执行以下命令生成SSH key</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C <span class="string">"your_email@youremail.com"</span></div></pre></td></tr></table></figure>
@@ -70,6 +70,7 @@
 <h2 id="创建文章："><a href="#创建文章：" class="headerlink" title="创建文章："></a>创建文章：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new [layout] &lt;title&gt;</div></pre></td></tr></table></figure>
 <p>启动完成后可通过 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 来访问</p>
 <h1 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="配置_config.yml"></a>配置_config.yml</h1><p>配置一些基本信息就不多说了，直接说怎么配置上传github，打开_config.yml，找到deploy，按照以下内容添加修改即可。</p>
+<a id="more"></a>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repository:</span> <span class="string">git@github.com:username/username.github.io.git</span></div><div class="line"><span class="attr">  branch:</span> <span class="string">master</span></div></pre></td></tr></table></figure>
 <p>hexo需执行以下命令,否则上传不到github</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
@@ -90,7 +91,17 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;注册Github、添加SSH-key-、创建username-github-io&quot;&gt;&lt;a href=&quot;#注册Github、添加SSH-key-、创建username-github-io&quot; class=&quot;headerlink&quot; title=&quot;注册Github、添加S
+      &lt;h1 id=&quot;注册Github、添加SSH-key-、创建username-github-io&quot;&gt;&lt;a href=&quot;#注册Github、添加SSH-key-、创建username-github-io&quot; class=&quot;headerlink&quot; title=&quot;注册Github、添加SSH key 、创建username.github.io&quot;&gt;&lt;/a&gt;注册Github、添加SSH key 、创建username.github.io&lt;/h1&gt;&lt;p&gt;注册自然不用多说，直接来添加SSH key，windows可通过Git Bash来执行以下命令生成SSH key&lt;/p&gt;
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;ssh-keygen -t rsa -C &lt;span class=&quot;string&quot;&gt;&quot;your_email@youremail.com&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;一路回车将id_rsa.pub复制添加到github-settings-ssh keys即可&lt;/p&gt;
+&lt;p&gt;创建repository，格式为username.github.io&lt;/p&gt;
+&lt;h1 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h1&gt;&lt;h2 id=&quot;执行以下命令：&quot;&gt;&lt;a href=&quot;#执行以下命令：&quot; class=&quot;headerlink&quot; title=&quot;执行以下命令：&quot;&gt;&lt;/a&gt;执行以下命令：&lt;/h2&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm install-g hexo&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;初始化：&quot;&gt;&lt;a href=&quot;#初始化：&quot; class=&quot;headerlink&quot; title=&quot;初始化：&quot;&gt;&lt;/a&gt;初始化：&lt;/h2&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo init&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;生成静态资源：&quot;&gt;&lt;a href=&quot;#生成静态资源：&quot; class=&quot;headerlink&quot; title=&quot;生成静态资源：&quot;&gt;&lt;/a&gt;生成静态资源：&lt;/h2&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo g&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;启动服务：&quot;&gt;&lt;a href=&quot;#启动服务：&quot; class=&quot;headerlink&quot; title=&quot;启动服务：&quot;&gt;&lt;/a&gt;启动服务：&lt;/h2&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo s&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;创建文章：&quot;&gt;&lt;a href=&quot;#创建文章：&quot; class=&quot;headerlink&quot; title=&quot;创建文章：&quot;&gt;&lt;/a&gt;创建文章：&lt;/h2&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo new [layout] &amp;lt;title&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;启动完成后可通过 &lt;a href=&quot;http://localhost:4000/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:4000/&lt;/a&gt; 来访问&lt;/p&gt;
+&lt;h1 id=&quot;配置-config-yml&quot;&gt;&lt;a href=&quot;#配置-config-yml&quot; class=&quot;headerlink&quot; title=&quot;配置_config.yml&quot;&gt;&lt;/a&gt;配置_config.yml&lt;/h1&gt;&lt;p&gt;配置一些基本信息就不多说了，直接说怎么配置上传github，打开_config.yml，找到deploy，按照以下内容添加修改即可。&lt;/p&gt;
     
     </summary>
     
