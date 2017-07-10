@@ -111,15 +111,15 @@
 
 
 
-<meta name="description" content="The program life">
+<meta name="description" content="The program life.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Gene&#39;s Blog">
+<meta property="og:title" content="Gene Zhao&#39;s Blog">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Gene&#39;s Blog">
-<meta property="og:description" content="The program life">
+<meta property="og:site_name" content="Gene Zhao&#39;s Blog">
+<meta property="og:description" content="The program life.">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Gene&#39;s Blog">
-<meta name="twitter:description" content="The program life">
+<meta name="twitter:title" content="Gene Zhao&#39;s Blog">
+<meta name="twitter:description" content="The program life.">
 
 
 
@@ -153,7 +153,7 @@
 
 
 
-  <title>Gene's Blog</title>
+  <title>Gene Zhao's Blog</title>
   
 
 
@@ -197,7 +197,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Gene's Blog</span>
+        <span class="site-title">Gene Zhao's Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -324,7 +324,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/07/apollo-deploy/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/10/提高步频的小技巧及训练方法/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Gene Zhao">
@@ -333,7 +333,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Gene's Blog">
+      <meta itemprop="name" content="Gene Zhao's Blog">
     </span>
 
     
@@ -343,7 +343,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/07/07/apollo-deploy/" itemprop="url">apollo配置管理平台编译部署</a></h1>
+                <a class="post-title-link" href="/2017/07/10/提高步频的小技巧及训练方法/" itemprop="url">提高步频的小技巧及训练方法</a></h1>
         
 
         <div class="post-meta">
@@ -355,8 +355,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-07T11:31:01+08:00">
-                2017-07-07
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-10T13:56:20+08:00">
+                2017-07-10
               </time>
             
 
@@ -365,6 +365,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/生活/" itemprop="url" rel="index">
+                    <span itemprop="name">生活</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -392,163 +414,35 @@
       
         
           
-            <h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ul>
-<li>阅读官方文档</li>
-</ul>
-<h1 id="修改配置"><a href="#修改配置" class="headerlink" title="修改配置"></a>修改配置</h1><h2 id="在java环境下部署"><a href="#在java环境下部署" class="headerlink" title="在java环境下部署"></a>在java环境下部署</h2><h3 id="apollo-configservice"><a href="#apollo-configservice" class="headerlink" title="apollo-configservice"></a>apollo-configservice</h3><p>1.修改application.yml</p>
-<p>修改前：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="attr">spring:</span></div><div class="line"><span class="attr">  application:</span></div><div class="line"><span class="attr">    name:</span> <span class="string">apollo-configservice</span></div><div class="line"><span class="attr">  profiles:</span></div><div class="line"><span class="attr">    active:</span> <span class="string">$&#123;apollo_profile&#125;</span></div><div class="line"></div><div class="line"><span class="attr">ctrip:</span></div><div class="line"><span class="attr">  appid:</span> <span class="number">100003171</span></div><div class="line">  </div><div class="line"><span class="attr">server:</span></div><div class="line"><span class="attr">  port:</span> <span class="number">8080</span></div><div class="line">  </div><div class="line"><span class="attr">logging:</span></div><div class="line"><span class="attr">  file:</span> <span class="string">/opt/logs/100003171/apollo-configservice.log</span></div></pre></td></tr></table></figure>
-<p>修改后：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="attr">spring:</span></div><div class="line"><span class="attr">  application:</span></div><div class="line"><span class="attr">    name:</span> <span class="string">apollo-configservice</span></div><div class="line"><span class="attr">  profiles:</span></div><div class="line"><span class="attr">    active:</span> <span class="string">$&#123;apollo_profile&#125;</span></div><div class="line"></div><div class="line"><span class="attr">ctrip:</span></div><div class="line"><span class="attr">  appid:</span> <span class="number">100003171</span></div><div class="line"></div><div class="line"><span class="attr">eureka:</span></div><div class="line"><span class="attr">  instance:</span></div><div class="line"><span class="attr">    ip-address:</span> <span class="number">192.168</span><span class="number">.1</span><span class="number">.32</span></div><div class="line"></div><div class="line"><span class="attr">server:</span></div><div class="line"><span class="attr">  port:</span> <span class="number">8031</span></div><div class="line">  </div><div class="line"><span class="attr">logging:</span></div><div class="line"><span class="attr">  file:</span> <span class="string">/opt/logs/100003171/apollo-configservice.log</span></div></pre></td></tr></table></figure>
-<p>2.修改bootstrap.yml</p>
-<p>修改前：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="attr">eureka:</span></div><div class="line"><span class="attr">  instance:</span></div><div class="line"><span class="attr">    hostname:</span> <span class="string">$&#123;hostname:localhost&#125;</span></div><div class="line"><span class="attr">    preferIpAddress:</span> <span class="literal">true</span></div><div class="line"><span class="attr">  server:</span></div><div class="line"><span class="attr">    peerEurekaNodesUpdateIntervalMs:</span> <span class="number">60000</span></div><div class="line"><span class="attr">    enableSelfPreservation:</span> <span class="literal">false</span></div><div class="line"><span class="attr">  client:</span></div><div class="line"><span class="attr">    serviceUrl:</span></div><div class="line"><span class="attr">      defaultZone:</span> <span class="attr">http://$&#123;eureka.instance.hostname&#125;:8080/eureka/</span></div><div class="line"><span class="attr">    healthcheck:</span></div><div class="line"><span class="attr">      enabled:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    eurekaServiceUrlPollIntervalSeconds:</span> <span class="number">60</span></div><div class="line"></div><div class="line"><span class="attr">endpoints:</span></div><div class="line"><span class="attr">  health:</span></div><div class="line"><span class="attr">    sensitive:</span> <span class="literal">false</span></div><div class="line"></div><div class="line"><span class="attr">management:</span></div><div class="line"><span class="attr">  security:</span></div><div class="line"><span class="attr">    enabled:</span> <span class="literal">false</span></div><div class="line"><span class="attr">  health:</span></div><div class="line"><span class="attr">    status:</span></div><div class="line"><span class="attr">      order:</span> <span class="string">DOWN,</span> <span class="string">OUT_OF_SERVICE,</span> <span class="string">UNKNOWN,</span> <span class="string">UP</span></div></pre></td></tr></table></figure>
-<p>修改后：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="attr">eureka:</span></div><div class="line"><span class="attr">  instance:</span></div><div class="line"><span class="attr">    hostname:</span> <span class="string">$&#123;hostname:localhost&#125;</span></div><div class="line"><span class="attr">    preferIpAddress:</span> <span class="literal">true</span></div><div class="line"><span class="attr">  server:</span></div><div class="line"><span class="attr">    peerEurekaNodesUpdateIntervalMs:</span> <span class="number">60000</span></div><div class="line"><span class="attr">    enableSelfPreservation:</span> <span class="literal">false</span></div><div class="line"><span class="attr">  client:</span></div><div class="line"><span class="attr">    serviceUrl:</span></div><div class="line"><span class="attr">      defaultZone:</span> <span class="attr">http://$&#123;eureka.instance.hostname&#125;:8031/eureka/</span></div><div class="line"><span class="attr">    healthcheck:</span></div><div class="line"><span class="attr">      enabled:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    eurekaServiceUrlPollIntervalSeconds:</span> <span class="number">60</span></div><div class="line"></div><div class="line"><span class="attr">endpoints:</span></div><div class="line"><span class="attr">  health:</span></div><div class="line"><span class="attr">    sensitive:</span> <span class="literal">false</span></div><div class="line"></div><div class="line"><span class="attr">management:</span></div><div class="line"><span class="attr">  security:</span></div><div class="line"><span class="attr">    enabled:</span> <span class="literal">false</span></div><div class="line"><span class="attr">  health:</span></div><div class="line"><span class="attr">    status:</span></div><div class="line"><span class="attr">      order:</span> <span class="string">DOWN,</span> <span class="string">OUT_OF_SERVICE,</span> <span class="string">UNKNOWN,</span> <span class="string">UP</span></div></pre></td></tr></table></figure>
-<p>3.修改configservice.properties</p>
-<p>修改前：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#Used for apollo-assembly</span></div><div class="line"><span class="string">spring.application.name=</span> <span class="string">apollo-configservice</span></div><div class="line"><span class="string">ctrip.appid=</span> <span class="number">100003171</span></div><div class="line"><span class="string">server.port=</span> <span class="number">8080</span></div><div class="line"><span class="string">logging.file=</span> <span class="string">/opt/logs/100003171/apollo-configservice.log</span></div></pre></td></tr></table></figure>
-<p>修改后：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#Used for apollo-assembly</span></div><div class="line"><span class="string">spring.application.name=</span> <span class="string">apollo-configservice</span></div><div class="line"><span class="string">ctrip.appid=</span> <span class="number">100003171</span></div><div class="line"><span class="string">server.port=</span> <span class="number">8031</span></div><div class="line"><span class="string">logging.file=</span> <span class="string">/opt/logs/100003171/apollo-configservice.log</span></div></pre></td></tr></table></figure>
-<p>4.修改scripts/startup.sh</p>
-<p>修改前：</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">...</div><div class="line">SERVER_PORT=8080</div><div class="line">...</div></pre></td></tr></table></figure>
-<p>修改后：</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">...</div><div class="line">SERVER_PORT=8031</div><div class="line">...</div></pre></td></tr></table></figure>
-<p>5.修改eureka地址<br>修改表ApolloConfigDB.ServerConfig，找到Value为的<a href="http://localhost:8080/eureka/的记录,修改为configservice所在的IP和端口，例如：http://192.168.1.32:8031/eureka/" target="_blank" rel="external">http://localhost:8080/eureka/的记录,修改为configservice所在的IP和端口，例如：http://192.168.1.32:8031/eureka/</a></p>
-<h3 id="apollo-adminservice"><a href="#apollo-adminservice" class="headerlink" title="apollo-adminservice"></a>apollo-adminservice</h3><p>1.修改application.yml</p>
-<p>修改前：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="attr">spring:</span></div><div class="line"><span class="attr">  application:</span></div><div class="line"><span class="attr">    name:</span> <span class="string">apollo-adminservice</span></div><div class="line"><span class="attr">  profiles:</span></div><div class="line"><span class="attr">    active:</span> <span class="string">$&#123;apollo_profile&#125;</span></div><div class="line"></div><div class="line"><span class="attr">ctrip:</span></div><div class="line"><span class="attr">  appid:</span> <span class="number">100003172</span></div><div class="line">  </div><div class="line"><span class="attr">server:</span></div><div class="line"><span class="attr">  port:</span> <span class="number">8090</span></div><div class="line">  </div><div class="line"><span class="attr">logging:</span></div><div class="line"><span class="attr">  file:</span> <span class="string">/opt/logs/100003172/apollo-adminservice.log</span></div></pre></td></tr></table></figure>
-<p>修改后：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="attr">spring:</span></div><div class="line"><span class="attr">  application:</span></div><div class="line"><span class="attr">    name:</span> <span class="string">apollo-adminservice</span></div><div class="line"><span class="attr">  profiles:</span></div><div class="line"><span class="attr">    active:</span> <span class="string">$&#123;apollo_profile&#125;</span></div><div class="line"></div><div class="line"><span class="attr">ctrip:</span></div><div class="line"><span class="attr">  appid:</span> <span class="number">100003172</span></div><div class="line"></div><div class="line"><span class="attr">eureka:</span></div><div class="line"><span class="attr">  instance:</span></div><div class="line"><span class="attr">    ip-address:</span> <span class="number">192.168</span><span class="number">.1</span><span class="number">.32</span></div><div class="line"></div><div class="line"><span class="attr">server:</span></div><div class="line"><span class="attr">  port:</span> <span class="number">8032</span></div><div class="line">  </div><div class="line"><span class="attr">logging:</span></div><div class="line"><span class="attr">  file:</span> <span class="string">/opt/logs/100003172/apollo-adminservice.log</span></div></pre></td></tr></table></figure>
-<p>2.修改bootstrap.yml</p>
-<p>修改前：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"><span class="attr">eureka:</span></div><div class="line"><span class="attr">  instance:</span></div><div class="line"><span class="attr">    hostname:</span> <span class="string">$&#123;hostname:localhost&#125;</span></div><div class="line"><span class="attr">    preferIpAddress:</span> <span class="literal">true</span></div><div class="line"><span class="attr">  client:</span></div><div class="line"><span class="attr">    serviceUrl:</span></div><div class="line"><span class="attr">      defaultZone:</span> <span class="attr">http://$&#123;eureka.instance.hostname&#125;:8080/eureka/</span></div><div class="line"><span class="attr">    healthcheck:</span></div><div class="line"><span class="attr">      enabled:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    eurekaServiceUrlPollIntervalSeconds:</span> <span class="number">60</span></div><div class="line"></div><div class="line"><span class="attr">endpoints:</span></div><div class="line"><span class="attr">  health:</span></div><div class="line"><span class="attr">    sensitive:</span> <span class="literal">false</span></div><div class="line"></div><div class="line"><span class="attr">management:</span></div><div class="line"><span class="attr">  security:</span></div><div class="line"><span class="attr">    enabled:</span> <span class="literal">false</span></div><div class="line"><span class="attr">  health:</span></div><div class="line"><span class="attr">    status:</span></div><div class="line"><span class="attr">      order:</span> <span class="string">DOWN,</span> <span class="string">OUT_OF_SERVICE,</span> <span class="string">UNKNOWN,</span> <span class="string">UP</span></div></pre></td></tr></table></figure>
-<p>修改后：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"><span class="attr">eureka:</span></div><div class="line"><span class="attr">  instance:</span></div><div class="line"><span class="attr">    hostname:</span> <span class="string">$&#123;hostname:localhost&#125;</span></div><div class="line"><span class="attr">    preferIpAddress:</span> <span class="literal">true</span></div><div class="line"><span class="attr">  client:</span></div><div class="line"><span class="attr">    serviceUrl:</span></div><div class="line"><span class="attr">      defaultZone:</span> <span class="attr">http://$&#123;eureka.instance.hostname&#125;:8031/eureka/</span></div><div class="line"><span class="attr">    healthcheck:</span></div><div class="line"><span class="attr">      enabled:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    eurekaServiceUrlPollIntervalSeconds:</span> <span class="number">60</span></div><div class="line"></div><div class="line"><span class="attr">endpoints:</span></div><div class="line"><span class="attr">  health:</span></div><div class="line"><span class="attr">    sensitive:</span> <span class="literal">false</span></div><div class="line"></div><div class="line"><span class="attr">management:</span></div><div class="line"><span class="attr">  security:</span></div><div class="line"><span class="attr">    enabled:</span> <span class="literal">false</span></div><div class="line"><span class="attr">  health:</span></div><div class="line"><span class="attr">    status:</span></div><div class="line"><span class="attr">      order:</span> <span class="string">DOWN,</span> <span class="string">OUT_OF_SERVICE,</span> <span class="string">UNKNOWN,</span> <span class="string">UP</span></div></pre></td></tr></table></figure>
-<p>3.修改文件startup.sh</p>
-<p>修改前：</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">...</div><div class="line">SERVER_PORT=8090</div><div class="line">...</div></pre></td></tr></table></figure>
-<p>修改后：</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">...</div><div class="line">SERVER_PORT=8032</div><div class="line">...</div></pre></td></tr></table></figure>
-<h2 id="在Docker下部署"><a href="#在Docker下部署" class="headerlink" title="在Docker下部署"></a>在Docker下部署</h2><h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><blockquote>
-<p>从官方直接更新master分支的代码，在不考虑端口冲突的情况下，初始化数据库脚本和修改数据库链接信息，然后执行/scripts/build.sh编译项目,访问项目是没有问题的。步骤如下：</p>
-</blockquote>
-<p><code>准备工作：创建数据库,执行官方的sql。</code></p>
-<ul>
-<li><p>pull master分支代码</p>
+            <ol>
+<li>评估个人情况<br>首先评估自己的步频。下次慢跑的时候，在正常情况下数一下30秒钟自己的步数，然后乘以二，就是你的步频。</li>
+</ol>
+<ol>
+<li>加强摆臂<br>你的手臂挥动会带动双腿，因此，如果你挥臂更快，双脚节奏也会随之加快。大家不妨试试，加强摆臂时，注重后摆以及控制后摆的发力肌肉，也就是手臂的三头肌用力，摆臂时加快向后拉的速度。每次跑步时不断提醒自己，三头肌快速发力，向后拉动手臂后摆。</li>
+</ol>
+<ol>
+<li>加快腿的折叠<br>跑步是向前的运动，人们很容易把增加步频和提高向前迈腿的速度联系在一起，但往往容易忽视收腿的问题，收腿时表现得玩玩都非常被动。其实收腿可以缩短腿在空中的时间，对加快步频很有帮助。</li>
+</ol>
+<p>建议跑步时大家可以把注意力集中在自己大腿的后面的肌肉上，加快收腿和折叠的动作，通过平时跑步中的肌肉意念控制练习，不断向头脑强化一个信息——加快收腿，不用多久，相信步频会有很快的提升。<br><img src="media/14996650731076/a770ba389b504fc24098e67ae6dde71191ef6d6c%20copy.jpg" alt="a770ba389b504fc24098e67ae6dde71191ef6d6c copy"><br>（P.S.留意脚步的流畅性，而不是迈步时离地的距离，采取轻快的步伐，这样能带来更高的步频，降低因为双脚冲击地面压力造成的受伤。)</p>
+<ol>
+<li>考虑步频，而非速度<br>你的第一目标是提高步频，而非总体速度，速度会随着锻炼时间增加而自然获得。因此，避免考虑速度问题，应该专注于增加脚步频率。最终，你将可以从慢跑提高到疾跑，并且保持同样的步频。</li>
+</ol>
+<ol>
+<li><p>结伴而跑<br>跟一个有每分钟180步的步频的伙伴一起跑步，跟上他们的节奏，这是最简单的训练方式。找个大神带你装逼带你飞！</p>
 </li>
-<li><p>编辑build.sh<br>修改数据库连接配置<code>apollo config db info</code>和<code>apollo portal db info</code>，修改完成后执行<code>build.sh</code>。</p>
+<li><p>听节奏感强的音乐<br>如果你自己跑，可以选择带iPod、iPhone或者MP3、MP4耳机，听着节拍每分钟180下的歌曲，按其节奏跑。</p>
 </li>
-<li><p>启动<br>Apollo Config Service和Apollo Admin Service可同时启动。<br><a href="https://github.com/ctripcorp/apollo/wiki/Apollo开发指南#二本地启动" target="_blank" rel="external">启动配置</a></p>
-</li>
-</ul>
-<h1 id="基于Docker部署"><a href="#基于Docker部署" class="headerlink" title="基于Docker部署"></a>基于Docker部署</h1><p>可参考<a href="https://github.com/ctripcorp/apollo/wiki/分布式部署指南" target="_blank" rel="external">分布式部署指南</a></p>
-<h2 id="基于Java8环境部署"><a href="#基于Java8环境部署" class="headerlink" title="基于Java8环境部署"></a>基于Java8环境部署</h2><ul>
-<li>上传安装包</li>
-</ul>
-<p>上传安装包至/usr/tomcat_home/apollo_configservice解压。</p>
-<ul>
-<li>运行docker</li>
-</ul>
-<p>1.apollo-configservice</p>
+</ol>
 <blockquote>
-<p>docker run –name apollo_configservice -p 8031:8031 -v /usr/tomcat_home/apollo_configservice/:/home/ -itd java:8</p>
+<p>加快步频的训练方法</p>
 </blockquote>
-<p>2.apollo-adminservice</p>
-<blockquote>
-<p>docker run –name apollo_adminservice -p 8032:8032 -v /usr/tomcat_home/apollo_adminservice/:/home/ -itd java:8</p>
-</blockquote>
-<p>3.apollo-portal</p>
-<blockquote>
-<p>docker run –name apollo_portal -p 8033:8080 -v /usr/tomcat_home/apollo_portal/:/home/ -itd java:8</p>
-</blockquote>
-<ul>
-<li>运行服务</li>
-</ul>
-<blockquote>
-<p>docker exec -it apollo_configservice /bin/bash</p>
-</blockquote>
-<p>进入到scripts</p>
-<blockquote>
-<p>./startup.sh</p>
-</blockquote>
-<h2 id="打镜像包部署"><a href="#打镜像包部署" class="headerlink" title="打镜像包部署"></a>打镜像包部署</h2><p>1.apollo-configservice</p>
-<ul>
-<li>修改application.yml</li>
-</ul>
-<p>修改后：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="attr">spring:</span></div><div class="line"><span class="attr">  application:</span></div><div class="line"><span class="attr">    name:</span> <span class="string">apollo-configservice</span></div><div class="line"><span class="attr">  profiles:</span></div><div class="line"><span class="attr">    active:</span> <span class="string">$&#123;apollo_profile&#125;</span></div><div class="line"><span class="attr">  cloud:</span></div><div class="line"><span class="attr">    inetutils:</span></div><div class="line"><span class="attr">      ignoredInterfaces:</span></div><div class="line"><span class="bullet">      -</span> <span class="string">docker0</span></div><div class="line"><span class="bullet">      -</span> <span class="string">veth.*</span></div><div class="line"></div><div class="line"><span class="attr">eureka:</span></div><div class="line"><span class="attr">  instance:</span></div><div class="line"><span class="attr">    ip-address:</span> <span class="number">192.168</span><span class="number">.1</span><span class="number">.32</span></div><div class="line"></div><div class="line"><span class="attr">ctrip:</span></div><div class="line"><span class="attr">  appid:</span> <span class="number">100003171</span></div><div class="line">  </div><div class="line"><span class="attr">server:</span></div><div class="line"><span class="attr">  port:</span> <span class="number">8031</span></div><div class="line">  </div><div class="line"><span class="attr">logging:</span></div><div class="line"><span class="attr">  file:</span> <span class="string">/opt/logs/100003171/apollo-configservice.log</span></div></pre></td></tr></table></figure>
-<ul>
-<li>Dockerfile</li>
-</ul>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="string">FROM</span> <span class="attr">java:8-jre</span></div><div class="line"><span class="string">MAINTAINER</span> <span class="string">Louis</span></div><div class="line"></div><div class="line"><span class="string">ENV</span> <span class="string">VERSION</span> <span class="number">0.7</span><span class="number">.0</span></div><div class="line"></div><div class="line"><span class="string">RUN</span> <span class="string">apt-get</span> <span class="string">install</span> <span class="string">unzip</span></div><div class="line"></div><div class="line"><span class="string">ADD</span> <span class="string">target/apollo-configservice-$&#123;VERSION&#125;-github.zip</span> <span class="string">/apollo-configservice/apollo-configservice-$&#123;VERSION&#125;-github.zip</span></div><div class="line"></div><div class="line"><span class="string">RUN</span> <span class="string">unzip</span> <span class="string">/apollo-configservice/apollo-configservice-$&#123;VERSION&#125;-github.zip</span> <span class="bullet">-d</span> <span class="string">/apollo-configservice</span> <span class="string">\</span></div><div class="line">    <span class="string">&amp;&amp;</span> <span class="string">rm</span> <span class="bullet">-rf</span> <span class="string">/apollo-configservice/apollo-configservice-$&#123;VERSION&#125;-github.zip</span> <span class="string">\</span></div><div class="line">    <span class="string">&amp;&amp;</span> <span class="string">sed</span> <span class="bullet">-i</span> <span class="string">'$d'</span> <span class="string">/apollo-configservice/scripts/startup.sh</span> <span class="string">\</span></div><div class="line">    <span class="string">&amp;&amp;</span> <span class="string">echo</span> <span class="string">"tail -f /dev/null"</span> <span class="string">&gt;&gt;</span> <span class="string">/apollo-configservice/scripts/startup.sh</span></div><div class="line"></div><div class="line"><span class="string">EXPOSE</span> <span class="number">8031</span></div><div class="line"></div><div class="line"><span class="string">CMD</span> <span class="string">["/apollo-configservice/scripts/startup.sh"]</span></div></pre></td></tr></table></figure>
-<ul>
-<li>编译</li>
-</ul>
-<blockquote>
-<p>docker build -t apollo-configservice .</p>
-</blockquote>
-<ul>
-<li>运行</li>
-</ul>
-<blockquote>
-<p>docker run -d –name apollo-configservice -v /usr/tomcat_home/boss_apollo/:/opt/logs -p 8031:8031 –net=host apollo-configservice</p>
-</blockquote>
-<p>2.apollo-adminservice</p>
-<p>修改后：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="attr">spring:</span></div><div class="line"><span class="attr">  application:</span></div><div class="line"><span class="attr">    name:</span> <span class="string">apollo-adminservice</span></div><div class="line"><span class="attr">  profiles:</span></div><div class="line"><span class="attr">    active:</span> <span class="string">$&#123;apollo_profile&#125;</span></div><div class="line"><span class="attr">  cloud:</span></div><div class="line"><span class="attr">    inetutils:</span></div><div class="line"><span class="attr">      ignoredInterfaces:</span></div><div class="line"><span class="bullet">      -</span> <span class="string">docker0</span></div><div class="line"><span class="bullet">      -</span> <span class="string">veth.*</span></div><div class="line"></div><div class="line"><span class="attr">eureka:</span></div><div class="line"><span class="attr">  instance:</span></div><div class="line"><span class="attr">    ip-address:</span> <span class="number">192.168</span><span class="number">.1</span><span class="number">.32</span></div><div class="line"></div><div class="line"><span class="attr">ctrip:</span></div><div class="line"><span class="attr">  appid:</span> <span class="number">100003172</span></div><div class="line">  </div><div class="line"><span class="attr">server:</span></div><div class="line"><span class="attr">  port:</span> <span class="number">8032</span></div><div class="line">  </div><div class="line"><span class="attr">logging:</span></div><div class="line"><span class="attr">  file:</span> <span class="string">/opt/logs/100003172/apollo-adminservice.log</span></div></pre></td></tr></table></figure>
-<ul>
-<li>Dockerfile</li>
-</ul>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="string">FROM</span> <span class="attr">java:8-jre</span></div><div class="line"><span class="string">MAINTAINER</span> <span class="string">Louis</span></div><div class="line"></div><div class="line"><span class="string">ENV</span> <span class="string">VERSION</span> <span class="number">0.7</span><span class="number">.0</span></div><div class="line"></div><div class="line"><span class="string">RUN</span> <span class="string">apt-get</span> <span class="string">install</span> <span class="string">unzip</span></div><div class="line"></div><div class="line"><span class="string">ADD</span> <span class="string">target/apollo-adminservice-$&#123;VERSION&#125;-github.zip</span> <span class="string">/apollo-adminservice/apollo-adminservice-$&#123;VERSION&#125;-github.zip</span></div><div class="line"></div><div class="line"><span class="string">RUN</span> <span class="string">unzip</span> <span class="string">/apollo-adminservice/apollo-adminservice-$&#123;VERSION&#125;-github.zip</span> <span class="bullet">-d</span> <span class="string">/apollo-adminservice</span> <span class="string">\</span></div><div class="line">    <span class="string">&amp;&amp;</span> <span class="string">rm</span> <span class="bullet">-rf</span> <span class="string">/apollo-adminservice/apollo-adminservice-$&#123;VERSION&#125;-github.zip</span> <span class="string">\</span></div><div class="line">    <span class="string">&amp;&amp;</span> <span class="string">sed</span> <span class="bullet">-i</span> <span class="string">'$d'</span> <span class="string">/apollo-adminservice/scripts/startup.sh</span> <span class="string">\</span></div><div class="line">    <span class="string">&amp;&amp;</span> <span class="string">echo</span> <span class="string">"tail -f /dev/null"</span> <span class="string">&gt;&gt;</span> <span class="string">/apollo-adminservice/scripts/startup.sh</span></div><div class="line"></div><div class="line"><span class="string">EXPOSE</span> <span class="number">8032</span></div><div class="line"></div><div class="line"><span class="string">CMD</span> <span class="string">["/apollo-adminservice/scripts/startup.sh"]</span></div></pre></td></tr></table></figure>
-<ul>
-<li>编译</li>
-</ul>
-<blockquote>
-<p>docker build -t apollo-adminservice .</p>
-</blockquote>
-<ul>
-<li>运行</li>
-</ul>
-<blockquote>
-<p>docker run -d –name apollo-adminservice -v /usr/tomcat_home/boss_apollo/:/opt/logs -p 8032:8032 –net=host apollo-adminservice</p>
-</blockquote>
-<p>3.apollo-portal   </p>
-<ul>
-<li>Dockerfile</li>
-</ul>
-<pre><code class="yml">
-<span class="string">FROM</span> <span class="attr">java:8-jre</span>
-<span class="string">MAINTAINER</span> <span class="string">Louis</span>
-
-<span class="string">ENV</span> <span class="string">VERSION</span> <span class="number">0.7</span><span class="number">.0</span>
-
-<span class="string">RUN</span> <span class="string">apt-get</span> <span class="string">install</span> <span class="string">unzip</span>
-
-<span class="string">ADD</span> <span class="string">target/apollo-portal-${VERSION}-github.zip</span> <span class="string">/apollo-portal/apollo-portal-${VERSION}-github.zip</span>
-
-<span class="string">RUN</span> <span class="string">unzip</span> <span class="string">/apollo-portal/apollo-portal-${VERSION}-github.zip</span> <span class="bullet">-d</span> <span class="string">/apollo-portal</span> <span class="string">\</span>
-    <span class="string">&amp;&amp;</span> <span class="string">rm</span> <span class="bullet">-rf</span> <span class="string">/apollo-portal/apollo-portal-${VERSION}-github.zip</span> <span class="string">\</span>
-    <span class="string">&amp;&amp;</span> <span class="string">sed</span> <span class="bullet">-i</span> <span class="string">'$d'</span> <span class="string">/apollo-portal/scripts/startup.sh</span> <span class="string">\</span>
-    <span class="string">&amp;&amp;</span> <span class="string">echo</span> <span class="string">"tail -f /dev/null"</span> <span class="string">&gt;&gt;</span> <span class="string">/apollo-portal/scripts/startup.sh</span>
-
-<span class="string">EXPOSE</span> <span class="number">8033</span>
-
-<span class="string">CMD</span> <span class="string">["/apollo-portal/scripts/startup.sh"]</span>
-</code></pre>
-<ul>
-<li>编译</li>
-</ul>
-<blockquote>
-<p>docker build -t apollo-portal .</p>
-</blockquote>
-<ul>
-<li>运行</li>
-</ul>
-<blockquote>
-<p>docker run -d –name apollo-portal -v /usr/tomcat_home/boss_apollo/:/opt/logs -p 8033:8080 –net=host apollo-portal</p>
-</blockquote>
+<ol>
+<li>123456加速训练法<br>忽略速度，只计算步频，用每分钟180步的速度跑一分钟，然后用稍微放松的节奏跑一分钟；以此类推，每次增加锻炼时间一分钟，直到达到5分钟为止。</li>
+</ol>
+<ol>
+<li>下坡跑<br>找一个斜坡，向下跑150到200米，注意专心控制加速，采用快速的小步跑，避免步幅过大。慢跑回坡顶，重复练习6次。</li>
+</ol>
+<p><img src="media/14996650731076/130e4cc2d56285357227845e93ef76c6a6ef636c.jpg" alt="130e4cc2d56285357227845e93ef76c6a6ef636"></p>
 
           
         
@@ -601,7 +495,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Gene's Blog">
+      <meta itemprop="name" content="Gene Zhao's Blog">
     </span>
 
     
@@ -740,7 +634,7 @@
                alt="Gene Zhao" />
           <p class="site-author-name" itemprop="name">Gene Zhao</p>
            
-              <p class="site-description motion-element" itemprop="description">The program life</p>
+              <p class="site-description motion-element" itemprop="description">The program life.</p>
           
         </div>
         <nav class="site-state motion-element">
@@ -754,6 +648,15 @@
             </div>
           
 
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
           
 
           
