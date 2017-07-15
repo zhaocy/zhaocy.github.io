@@ -120,7 +120,7 @@
 <meta property="og:url" content="http://zhaocy.github.io/2016-10-04-hexo常用功能/index.html">
 <meta property="og:site_name" content="Gene Zhao&#39;s Blog">
 <meta property="og:description" content="注册Github、添加SSH key 、创建username.github.io注册自然不用多说，直接来添加SSH key，windows可通过Git Bash来执行以下命令生成SSH key 1ssh-keygen -t rsa -C &quot;your_email@youremail.com&quot; 一路回车将id_rsa.pub复制添加到github-settings-ssh keys即可 创建repos">
-<meta property="og:updated_time" content="2017-07-10T15:39:29.000Z">
+<meta property="og:updated_time" content="2017-07-15T07:25:14.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo入门">
 <meta name="twitter:description" content="注册Github、添加SSH key 、创建username.github.io注册自然不用多说，直接来添加SSH key，windows可通过Git Bash来执行以下命令生成SSH key 1ssh-keygen -t rsa -C &quot;your_email@youremail.com&quot; 一路回车将id_rsa.pub复制添加到github-settings-ssh keys即可 创建repos">
@@ -403,7 +403,7 @@
             
           
           <span class="post-meta-divider">|</span>
-          字数统计:<span class="post-count">425</span> 阅读时长预计: <span class="post-count">2</span> 
+          字数统计:<span class="post-count">425</span> 阅读时长预计: <span class="post-count">2 min</span> 
 
           
           
@@ -430,12 +430,12 @@
 <p>创建repository，格式为username.github.io</p>
 <h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><h2 id="执行以下命令："><a href="#执行以下命令：" class="headerlink" title="执行以下命令："></a>执行以下命令：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install-g hexo</div></pre></td></tr></table></figure>
 <h2 id="初始化："><a href="#初始化：" class="headerlink" title="初始化："></a>初始化：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo init</div></pre></td></tr></table></figure>
+<a id="more"></a>
 <h2 id="生成静态资源："><a href="#生成静态资源：" class="headerlink" title="生成静态资源："></a>生成静态资源：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo g</div></pre></td></tr></table></figure>
 <h2 id="启动服务："><a href="#启动服务：" class="headerlink" title="启动服务："></a>启动服务：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo s</div></pre></td></tr></table></figure>
 <h2 id="创建文章："><a href="#创建文章：" class="headerlink" title="创建文章："></a>创建文章：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new [layout] &lt;title&gt;</div></pre></td></tr></table></figure>
 <p>启动完成后可通过 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 来访问</p>
 <h1 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="配置_config.yml"></a>配置_config.yml</h1><p>配置一些基本信息就不多说了，直接说怎么配置上传github，打开_config.yml，找到deploy，按照以下内容添加修改即可。</p>
-<a id="more"></a>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repository:</span> <span class="string">git@github.com:username/username.github.io.git</span></div><div class="line"><span class="attr">  branch:</span> <span class="string">master</span></div></pre></td></tr></table></figure>
 <p>hexo需执行以下命令,否则上传不到github</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>

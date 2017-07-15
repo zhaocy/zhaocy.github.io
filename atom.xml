@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaocy.github.io/"/>
-  <updated>2017-07-15T07:23:31.000Z</updated>
+  <updated>2017-07-15T07:25:22.000Z</updated>
   <id>http://zhaocy.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://zhaocy.github.io/2017-07-15-Hexo%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6/"/>
     <id>http://zhaocy.github.io/2017-07-15-Hexo常用插件/</id>
     <published>2017-07-14T16:00:00.000Z</published>
-    <updated>2017-07-15T07:23:31.000Z</updated>
+    <updated>2017-07-15T07:25:22.000Z</updated>
     
     <content type="html"><![CDATA[<hr>
 <p>title: Hexo常用插件<br>date: 2016-10-09 15:19:49<br>tags: hexo,插件,plugins</p>
@@ -41,6 +41,7 @@
 </ul>
 <h2 id="hexo-spoiler"><a href="#hexo-spoiler" class="headerlink" title="hexo-spoiler"></a>hexo-spoiler</h2><ul>
 <li><p><a href="https://github.com/unnamed42/hexo-spoiler" target="_blank" rel="external">github</a></p>
+<a id="more"></a>
 <h2 id="hexo-sliding-spoiler"><a href="#hexo-sliding-spoiler" class="headerlink" title="hexo-sliding-spoiler"></a>hexo-sliding-spoiler</h2></li>
 <li><p><a href="https://github.com/fletchto99/hexo-sliding-spoiler" target="_blank" rel="external">github</a></p>
 </li>
@@ -55,7 +56,23 @@
     
       &lt;hr&gt;
 &lt;p&gt;title: Hexo常用插件&lt;br&gt;date: 2016-10-09 15:19:49&lt;br&gt;tags: hexo,插件,plugins&lt;/p&gt;
-&lt;h2 id=&quot;categories-技术&quot;&gt;&lt;a href=&quot;#categories-技术&quot; class=&quot;hea
+&lt;h2 id=&quot;categories-技术&quot;&gt;&lt;a href=&quot;#categories-技术&quot; class=&quot;headerlink&quot; title=&quot;categories: 技术&quot;&gt;&lt;/a&gt;categories: 技术&lt;/h2&gt;&lt;h1 id=&quot;Hexo常用插件&quot;&gt;&lt;a href=&quot;#Hexo常用插件&quot; class=&quot;headerlink&quot; title=&quot;Hexo常用插件&quot;&gt;&lt;/a&gt;Hexo常用插件&lt;/h1&gt;&lt;h2 id=&quot;hexo-addlink&quot;&gt;&lt;a href=&quot;#hexo-addlink&quot; class=&quot;headerlink&quot; title=&quot;hexo-addlink&quot;&gt;&lt;/a&gt;hexo-addlink&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/acwong00/hexo-addlink&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;百度主动提交连接&quot;&gt;&lt;a href=&quot;#百度主动提交连接&quot; class=&quot;headerlink&quot; title=&quot;百度主动提交连接&quot;&gt;&lt;/a&gt;百度主动提交连接&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://hui-wang.info/2016/10/23/Hexo插件之百度主动提交链接/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;教程&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Hexo-hrefmd&quot;&gt;&lt;a href=&quot;#Hexo-hrefmd&quot; class=&quot;headerlink&quot; title=&quot;Hexo-hrefmd&quot;&gt;&lt;/a&gt;Hexo-hrefmd&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rozbo/hexo-hrefmd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;hexo-pdf&quot;&gt;&lt;a href=&quot;#hexo-pdf&quot; class=&quot;headerlink&quot; title=&quot;hexo-pdf&quot;&gt;&lt;/a&gt;hexo-pdf&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/superalsrk/hexo-pdf/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;hexo-ruby-character&quot;&gt;&lt;a href=&quot;#hexo-ruby-character&quot; class=&quot;headerlink&quot; title=&quot;hexo-ruby-character&quot;&gt;&lt;/a&gt;hexo-ruby-character&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/JamesPan/hexo-ruby-character&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;hexo-spoiler&quot;&gt;&lt;a href=&quot;#hexo-spoiler&quot; class=&quot;headerlink&quot; title=&quot;hexo-spoiler&quot;&gt;&lt;/a&gt;hexo-spoiler&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/unnamed42/hexo-spoiler&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
@@ -105,7 +122,7 @@
     <link href="http://zhaocy.github.io/2016-10-04-hexo%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/"/>
     <id>http://zhaocy.github.io/2016-10-04-hexo常用功能/</id>
     <published>2016-10-04T13:40:58.000Z</published>
-    <updated>2017-07-10T15:39:29.000Z</updated>
+    <updated>2017-07-15T07:25:14.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="注册Github、添加SSH-key-、创建username-github-io"><a href="#注册Github、添加SSH-key-、创建username-github-io" class="headerlink" title="注册Github、添加SSH key 、创建username.github.io"></a>注册Github、添加SSH key 、创建username.github.io</h1><p>注册自然不用多说，直接来添加SSH key，windows可通过Git Bash来执行以下命令生成SSH key</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C <span class="string">"your_email@youremail.com"</span></div></pre></td></tr></table></figure>
@@ -113,12 +130,12 @@
 <p>创建repository，格式为username.github.io</p>
 <h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><h2 id="执行以下命令："><a href="#执行以下命令：" class="headerlink" title="执行以下命令："></a>执行以下命令：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install-g hexo</div></pre></td></tr></table></figure>
 <h2 id="初始化："><a href="#初始化：" class="headerlink" title="初始化："></a>初始化：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo init</div></pre></td></tr></table></figure>
+<a id="more"></a>
 <h2 id="生成静态资源："><a href="#生成静态资源：" class="headerlink" title="生成静态资源："></a>生成静态资源：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo g</div></pre></td></tr></table></figure>
 <h2 id="启动服务："><a href="#启动服务：" class="headerlink" title="启动服务："></a>启动服务：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo s</div></pre></td></tr></table></figure>
 <h2 id="创建文章："><a href="#创建文章：" class="headerlink" title="创建文章："></a>创建文章：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new [layout] &lt;title&gt;</div></pre></td></tr></table></figure>
 <p>启动完成后可通过 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 来访问</p>
 <h1 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="配置_config.yml"></a>配置_config.yml</h1><p>配置一些基本信息就不多说了，直接说怎么配置上传github，打开_config.yml，找到deploy，按照以下内容添加修改即可。</p>
-<a id="more"></a>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repository:</span> <span class="string">git@github.com:username/username.github.io.git</span></div><div class="line"><span class="attr">  branch:</span> <span class="string">master</span></div></pre></td></tr></table></figure>
 <p>hexo需执行以下命令,否则上传不到github</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
@@ -146,11 +163,6 @@
 &lt;p&gt;创建repository，格式为username.github.io&lt;/p&gt;
 &lt;h1 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h1&gt;&lt;h2 id=&quot;执行以下命令：&quot;&gt;&lt;a href=&quot;#执行以下命令：&quot; class=&quot;headerlink&quot; title=&quot;执行以下命令：&quot;&gt;&lt;/a&gt;执行以下命令：&lt;/h2&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm install-g hexo&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;初始化：&quot;&gt;&lt;a href=&quot;#初始化：&quot; class=&quot;headerlink&quot; title=&quot;初始化：&quot;&gt;&lt;/a&gt;初始化：&lt;/h2&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo init&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;生成静态资源：&quot;&gt;&lt;a href=&quot;#生成静态资源：&quot; class=&quot;headerlink&quot; title=&quot;生成静态资源：&quot;&gt;&lt;/a&gt;生成静态资源：&lt;/h2&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo g&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;启动服务：&quot;&gt;&lt;a href=&quot;#启动服务：&quot; class=&quot;headerlink&quot; title=&quot;启动服务：&quot;&gt;&lt;/a&gt;启动服务：&lt;/h2&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo s&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;创建文章：&quot;&gt;&lt;a href=&quot;#创建文章：&quot; class=&quot;headerlink&quot; title=&quot;创建文章：&quot;&gt;&lt;/a&gt;创建文章：&lt;/h2&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo new [layout] &amp;lt;title&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;启动完成后可通过 &lt;a href=&quot;http://localhost:4000/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:4000/&lt;/a&gt; 来访问&lt;/p&gt;
-&lt;h1 id=&quot;配置-config-yml&quot;&gt;&lt;a href=&quot;#配置-config-yml&quot; class=&quot;headerlink&quot; title=&quot;配置_config.yml&quot;&gt;&lt;/a&gt;配置_config.yml&lt;/h1&gt;&lt;p&gt;配置一些基本信息就不多说了，直接说怎么配置上传github，打开_config.yml，找到deploy，按照以下内容添加修改即可。&lt;/p&gt;
     
     </summary>
     
