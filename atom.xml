@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaocy.github.io/"/>
-  <updated>2017-07-15T07:33:34.000Z</updated>
+  <updated>2017-07-10T15:37:35.000Z</updated>
   <id>http://zhaocy.github.io/</id>
   
   <author>
@@ -14,72 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://zhaocy.github.io/2017-07-15-Hexo%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6/"/>
-    <id>http://zhaocy.github.io/2017-07-15-Hexo常用插件/</id>
-    <published>2017-07-14T16:00:00.000Z</published>
-    <updated>2017-07-15T07:33:34.000Z</updated>
-    
-    <content type="html"><![CDATA[<hr>
-<p>title: Hexo常用插件<br>date: 2016-10-09 15:19:49<br>tags: hexo,插件<br>categories: 技术</p>
-<hr>
-<h1 id="Hexo常用插件"><a href="#Hexo常用插件" class="headerlink" title="Hexo常用插件"></a>Hexo常用插件</h1><h2 id="hexo-addlink"><a href="#hexo-addlink" class="headerlink" title="hexo-addlink"></a>hexo-addlink</h2><ul>
-<li><a href="https://github.com/acwong00/hexo-addlink" target="_blank" rel="external">github</a></li>
-</ul>
-<h2 id="百度主动提交连接"><a href="#百度主动提交连接" class="headerlink" title="百度主动提交连接"></a>百度主动提交连接</h2><ul>
-<li><a href="http://hui-wang.info/2016/10/23/Hexo插件之百度主动提交链接/" target="_blank" rel="external">教程</a></li>
-</ul>
-<h2 id="Hexo-hrefmd"><a href="#Hexo-hrefmd" class="headerlink" title="Hexo-hrefmd"></a>Hexo-hrefmd</h2><ul>
-<li><a href="https://github.com/rozbo/hexo-hrefmd" target="_blank" rel="external">github</a></li>
-</ul>
-<h2 id="hexo-pdf"><a href="#hexo-pdf" class="headerlink" title="hexo-pdf"></a>hexo-pdf</h2><ul>
-<li><a href="https://github.com/superalsrk/hexo-pdf/" target="_blank" rel="external">github</a></li>
-</ul>
-<h2 id="hexo-ruby-character"><a href="#hexo-ruby-character" class="headerlink" title="hexo-ruby-character"></a>hexo-ruby-character</h2><ul>
-<li><a href="https://github.com/JamesPan/hexo-ruby-character" target="_blank" rel="external">github</a></li>
-</ul>
-<h2 id="hexo-spoiler"><a href="#hexo-spoiler" class="headerlink" title="hexo-spoiler"></a>hexo-spoiler</h2><ul>
-<li><p><a href="https://github.com/unnamed42/hexo-spoiler" target="_blank" rel="external">github</a></p>
-<a id="more"></a>
-<h2 id="hexo-sliding-spoiler"><a href="#hexo-sliding-spoiler" class="headerlink" title="hexo-sliding-spoiler"></a>hexo-sliding-spoiler</h2></li>
-<li><p><a href="https://github.com/fletchto99/hexo-sliding-spoiler" target="_blank" rel="external">github</a></p>
-</li>
-</ul>
-<h2 id="Hexo-WordCount"><a href="#Hexo-WordCount" class="headerlink" title="Hexo-WordCount"></a>Hexo-WordCount</h2><ul>
-<li><a href="https://github.com/willin/hexo-wordcount" target="_blank" rel="external">github</a></li>
-</ul>
-<p>本文地址 <a href="http://zhaocy.github.io/2017-07-15-Hexo常用插件/">http://zhaocy.github.io/2017-07-15-Hexo常用插件/</a> GO!</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;hr&gt;
-&lt;p&gt;title: Hexo常用插件&lt;br&gt;date: 2016-10-09 15:19:49&lt;br&gt;tags: hexo,插件&lt;br&gt;categories: 技术&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&quot;Hexo常用插件&quot;&gt;&lt;a href=&quot;#Hexo常用插件&quot; class=&quot;headerlink&quot; title=&quot;Hexo常用插件&quot;&gt;&lt;/a&gt;Hexo常用插件&lt;/h1&gt;&lt;h2 id=&quot;hexo-addlink&quot;&gt;&lt;a href=&quot;#hexo-addlink&quot; class=&quot;headerlink&quot; title=&quot;hexo-addlink&quot;&gt;&lt;/a&gt;hexo-addlink&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/acwong00/hexo-addlink&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;百度主动提交连接&quot;&gt;&lt;a href=&quot;#百度主动提交连接&quot; class=&quot;headerlink&quot; title=&quot;百度主动提交连接&quot;&gt;&lt;/a&gt;百度主动提交连接&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://hui-wang.info/2016/10/23/Hexo插件之百度主动提交链接/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;教程&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;Hexo-hrefmd&quot;&gt;&lt;a href=&quot;#Hexo-hrefmd&quot; class=&quot;headerlink&quot; title=&quot;Hexo-hrefmd&quot;&gt;&lt;/a&gt;Hexo-hrefmd&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/rozbo/hexo-hrefmd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;hexo-pdf&quot;&gt;&lt;a href=&quot;#hexo-pdf&quot; class=&quot;headerlink&quot; title=&quot;hexo-pdf&quot;&gt;&lt;/a&gt;hexo-pdf&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/superalsrk/hexo-pdf/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;hexo-ruby-character&quot;&gt;&lt;a href=&quot;#hexo-ruby-character&quot; class=&quot;headerlink&quot; title=&quot;hexo-ruby-character&quot;&gt;&lt;/a&gt;hexo-ruby-character&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/JamesPan/hexo-ruby-character&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;hexo-spoiler&quot;&gt;&lt;a href=&quot;#hexo-spoiler&quot; class=&quot;headerlink&quot; title=&quot;hexo-spoiler&quot;&gt;&lt;/a&gt;hexo-spoiler&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/unnamed42/hexo-spoiler&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>提高步频的小技巧及训练方法</title>
