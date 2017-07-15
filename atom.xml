@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaocy.github.io/"/>
-  <updated>2017-07-10T15:37:35.000Z</updated>
+  <updated>2017-07-15T07:46:00.000Z</updated>
   <id>http://zhaocy.github.io/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo常用插件</title>
+    <link href="http://zhaocy.github.io/2017-07-15-Hexo%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6/"/>
+    <id>http://zhaocy.github.io/2017-07-15-Hexo常用插件/</id>
+    <published>2017-07-15T07:46:00.000Z</published>
+    <updated>2017-07-15T07:46:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文地址 <a href="http://zhaocy.github.io/2017-07-15-Hexo常用插件/">http://zhaocy.github.io/2017-07-15-Hexo常用插件/</a> GO!</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文地址 &lt;a href=&quot;http://zhaocy.github.io/2017-07-15-Hexo常用插件/&quot;&gt;http://zhaocy.github.io/2017-07-15-Hexo常用插件/&lt;/a&gt; GO!&lt;/p&gt;
+&lt;link rel=&quot;styleshee
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>提高步频的小技巧及训练方法</title>
