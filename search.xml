@@ -1,37 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[嫌疑人X的献身]]></title>
-    <url>%2F2017-03-22-%E5%AB%8C%E7%96%91%E4%BA%BAX%E7%9A%84%E7%8C%AE%E8%BA%AB%2F</url>
-    <content type="text"><![CDATA[《嫌疑人X的献身》作者: [日] 东野圭吾 。百年一遇的数学天才石神，每天唯一的乐趣，便是去固定的便当店买午餐，只为看一眼在便当店做事的邻居靖子。靖子与女儿相依为命，失手杀了前来纠缠的前夫。石神提出由他料理善后。石神设了一个匪夷所思的局，令警方始终只能在外围敲敲打打…… 作者 东野圭吾 下载 http://www.zoudupai.com/note/7101 本文地址 http://zhaocy.github.io/2017-03-22-嫌疑人X的献身/ GO!]]></content>
-      <categories>
-        <category>读书</category>
-      </categories>
-      <tags>
-        <tag>东野圭吾</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[解忧杂货店]]></title>
-    <url>%2F2017-03-06-%E8%A7%A3%E5%BF%A7%E6%9D%82%E8%B4%A7%E5%BA%97%2F</url>
-    <content type="text"><![CDATA[《解忧杂货店》现代人内心流失的东西，这家杂货店能帮你找回——《白夜行》后，东野圭吾最受欢迎作品。不是推理小说，却更扣人心弦。荣获中央公论文艺奖，荣登纪伊国屋、诚品、博客来、金石堂各大排行榜第1名。 作者 东野圭吾 下载 http://www.zoudupai.com/note/9429 本文地址 http://zhaocy.github.io/2017-03-06-解忧杂货店/ GO!]]></content>
-      <categories>
-        <category>读书</category>
-      </categories>
-      <tags>
-        <tag>东野圭吾</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[空中杀人现场]]></title>
-    <url>%2F2017-02-26-%E7%A9%BA%E4%B8%AD%E6%9D%80%E4%BA%BA%E7%8E%B0%E5%9C%BA%2F</url>
-    <content type="text"><![CDATA[《空中杀人现场》是东野圭吾笔下罕见的诙谐幽默故事，也是精巧的本格推理杰作。空姐小A和小B是一对性格迥异却非常合拍的密友，小A沉稳大方、心思缜密，小B俏皮可爱、不拘小节。在离地万米的机舱里，面对形形色色的旅客，她们总是卷入意想不到的诡异事件。 作者 东野圭吾 下载 http://www.zoudupai.com/note/34102 本文地址 http://zhaocy.github.io/2017-02-26-空中杀人现场/ GO!]]></content>
+    <url>%2F2017-07-16-%E7%A9%BA%E4%B8%AD%E6%9D%80%E4%BA%BA%E7%8E%B0%E5%9C%BA%2F</url>
+    <content type="text"><![CDATA[《空中杀人现场》是东野圭吾笔下罕见的诙谐幽默故事，也是精巧的本格推理杰作。空姐小A和小B是一对性格迥异却非常合拍的密友，小A沉稳大方、心思缜密，小B俏皮可爱、不拘小节。在离地万米的机舱里，面对形形色色的旅客，她们总是卷入意想不到的诡异事件。 作者 东野圭吾[日] 下载 http://www.zoudupai.com/note/34102 本文地址 http://zhaocy.github.io/2017-07-16-空中杀人现场/ GO!]]></content>
       <categories>
         <category>读书</category>
       </categories>
       <tags>
         <tag>东野圭吾</tag>
-        <tag>小说</tag>
       </tags>
   </entry>
   <entry>
@@ -70,6 +47,17 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[解忧杂货店]]></title>
+    <url>%2F2016-10-06-%E8%A7%A3%E5%BF%A7%E6%9D%82%E8%B4%A7%E5%BA%97%2F</url>
+    <content type="text"><![CDATA[《解忧杂货店》现代人内心流失的东西，这家杂货店能帮你找回——《白夜行》后，东野圭吾最受欢迎作品。不是推理小说，却更扣人心弦。荣获中央公论文艺奖，荣登纪伊国屋、诚品、博客来、金石堂各大排行榜第1名。 作者 东野圭吾[日] 下载 http://www.zoudupai.com/note/9429 本文地址 http://zhaocy.github.io/2016-10-06-解忧杂货店/ GO!]]></content>
+      <categories>
+        <category>读书</category>
+      </categories>
+      <tags>
+        <tag>东野圭吾</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[hexo入门]]></title>
     <url>%2F2016-10-04-hexo%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD%2F</url>
     <content type="text"><![CDATA[注册Github、添加SSH key 、创建username.github.io注册自然不用多说，直接来添加SSH key，windows可通过Git Bash来执行以下命令生成SSH key 1ssh-keygen -t rsa -C "your_email@youremail.com" 一路回车将id_rsa.pub复制添加到github-settings-ssh keys即可 创建repository，格式为username.github.io 安装Hexo执行以下命令：1npm install-g hexo 初始化：1hexo init 生成静态资源：1hexo g 启动服务：1hexo s 创建文章：1hexo new [layout] &lt;title&gt; 启动完成后可通过 http://localhost:4000/ 来访问 配置_config.yml配置一些基本信息就不多说了，直接说怎么配置上传github，打开_config.yml，找到deploy，按照以下内容添加修改即可。 1234deploy: type: git repository: git@github.com:username/username.github.io.git branch: master hexo需执行以下命令,否则上传不到github 1npm install hexo-deployer-git --save 执行以下命令部署到github 1hexo deploy 然后访问username.github.io就可以看到效果啦！ 以后每次部署需执行下面三步命令： 123hexo cleanhexo ghexo d 绑定独立域名在source文件夹新建CNAME文件内容为你的域名即可，例如：kulove.cc，最后将记录类型为CNAME的@、www解析到username.github.io即完成独立域名绑定。 安装主题ok，到这里hexo的安装已经告一段落了，但俗话说的好，人靠衣装马靠鞍，接下来我们要去换一款主题，这里以NexT为例 123cd your-hexo-sitegit clone https://github.com/iissnan/hexo-theme-next themes/next 然后将_config.yml里的theme改为next即可。 资料参考 Hexo官方 NexT使用文档 本文地址 http://zhaocy.github.io/2016-10-04-hexo常用功能/ GO!]]></content>
@@ -79,6 +67,17 @@
       <tags>
         <tag>hexo安装</tag>
         <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[嫌疑人X的献身]]></title>
+    <url>%2F2016-08-22-%E5%AB%8C%E7%96%91%E4%BA%BAX%E7%9A%84%E7%8C%AE%E8%BA%AB%2F</url>
+    <content type="text"><![CDATA[百年一遇的数学天才石神，每天唯一的乐趣，便是去固定的便当店买午餐，只为看一眼在便当店做事的邻居靖子。靖子与女儿相依为命，失手杀了前来纠缠的前夫。石神提出由他料理善后。石神设了一个匪夷所思的局，令警方始终只能在外围敲敲打打…… 作者 东野圭吾[日] 下载 http://www.zoudupai.com/note/7101 本文地址 http://zhaocy.github.io/2016-08-22-嫌疑人X的献身/ GO!]]></content>
+      <categories>
+        <category>读书</category>
+      </categories>
+      <tags>
+        <tag>东野圭吾</tag>
       </tags>
   </entry>
 </search>
