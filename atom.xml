@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaocy.github.io/"/>
-  <updated>2017-08-25T02:21:52.000Z</updated>
+  <updated>2017-08-25T05:24:34.000Z</updated>
   <id>http://zhaocy.github.io/</id>
   
   <author>
@@ -14,6 +14,85 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Alfred 3.4</title>
+    <link href="http://zhaocy.github.io/2017-08-25-Alfred-3-4/"/>
+    <id>http://zhaocy.github.io/2017-08-25-Alfred-3-4/</id>
+    <published>2017-08-25T05:18:34.000Z</published>
+    <updated>2017-08-25T05:24:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>介绍</strong></p>
+<p>Alfred 完全可以替代OS X自带的Spotlight，功能之强大。可以为你节省时间，搜索出所有你想要的请求，非常的快捷方便。</p>
+<p><strong>破解方法</strong></p>
+<ol>
+<li>打开dmg镜像，将“Alfred 3.app”拖入应用程序中；</li>
+<li>打开“CORE Keygen”，点击“Path”弹出对话框，找到“Alfred 3.app”；（中间如果弹出Xcode，必须安装）</li>
+<li>点击“save”提示”License information saved successfully“</li>
+<li>Have Done!</li>
+</ol>
+<p><strong>下载</strong><br><a href="https://pan.baidu.com/share/init?shareid=688046879&amp;uk=3355908067" target="_blank" rel="external">Alfred 3.4 Mac破解版下载</a> 密码：ph7t</p>
+<p>本文地址 <a href="http://zhaocy.github.io/2017-08-25-Alfred-3-4/">http://zhaocy.github.io/2017-08-25-Alfred-3-4/</a> GO!</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;介绍&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Alfred 完全可以替代OS X自带的Spotlight，功能之强大。可以为你节省时间，搜索出所有你想要的请求，非常的快捷方便。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;破解方法&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;打开
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
+    
+    
+      <category term="系统" scheme="http://zhaocy.github.io/tags/%E7%B3%BB%E7%BB%9F/"/>
+    
+      <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Dr.Cleaner</title>
+    <link href="http://zhaocy.github.io/2017-08-25-Dr-Cleaner/"/>
+    <id>http://zhaocy.github.io/2017-08-25-Dr-Cleaner/</id>
+    <published>2017-08-25T05:14:26.000Z</published>
+    <updated>2017-08-25T05:17:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Dr.Cleaner的特点：</strong></p>
+<ol>
+<li>智能内存优化</li>
+<li>磁盘清理</li>
+<li>打文件扫描</li>
+<li>重复文件查找</li>
+</ol>
+<p><a href="https://itunes.apple.com/cn/app/id921458519?mt=12" target="_blank" rel="external">Mac商店免费下载</a></p>
+<p>本文地址 <a href="http://zhaocy.github.io/2017-08-25-Dr-Cleaner/">http://zhaocy.github.io/2017-08-25-Dr-Cleaner/</a> GO!</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;Dr.Cleaner的特点：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;智能内存优化&lt;/li&gt;
+&lt;li&gt;磁盘清理&lt;/li&gt;
+&lt;li&gt;打文件扫描&lt;/li&gt;
+&lt;li&gt;重复文件查找&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;https://itunes.ap
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
+    
+    
+      <category term="系统" scheme="http://zhaocy.github.io/tags/%E7%B3%BB%E7%BB%9F/"/>
+    
+      <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>IntelliJ IDEA 2017</title>
@@ -46,9 +125,9 @@
       <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
     
     
-      <category term="开发" scheme="http://zhaocy.github.io/tags/%E5%BC%80%E5%8F%91/"/>
-    
       <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="开发" scheme="http://zhaocy.github.io/tags/%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   

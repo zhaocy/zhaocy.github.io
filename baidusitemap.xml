@@ -4,6 +4,50 @@
 
     
   <url>
+    <loc>http://zhaocy.github.io/2017-08-25-Alfred-3-4/</loc>
+    <lastmod>2017-08-25T05:24:34.000Z</lastmod>
+    <data>
+        <display>
+        <title>Alfred 3.4</title>
+        <pubTime>2017-08-25T05:18:34.000Z</pubTime>
+        
+        <tag>系统</tag>
+         
+        <tag>软件</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://zhaocy.github.io/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaocy.github.io/2017-08-25-Dr-Cleaner/</loc>
+    <lastmod>2017-08-25T05:17:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>Dr.Cleaner</title>
+        <pubTime>2017-08-25T05:14:26.000Z</pubTime>
+        
+        <tag>系统</tag>
+         
+        <tag>软件</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://zhaocy.github.io/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://zhaocy.github.io/2017-08-25-IntelliJ-IDEA-2017/</loc>
     <lastmod>2017-08-25T02:21:52.000Z</lastmod>
     <data>
@@ -11,9 +55,9 @@
         <title>IntelliJ IDEA 2017</title>
         <pubTime>2017-08-25T02:13:32.000Z</pubTime>
         
-        <tag>开发</tag>
-         
         <tag>软件</tag>
+         
+        <tag>开发</tag>
          
          
            
