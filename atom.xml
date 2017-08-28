@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaocy.github.io/"/>
-  <updated>2017-08-28T03:45:54.000Z</updated>
+  <updated>2017-08-28T06:39:34.000Z</updated>
   <id>http://zhaocy.github.io/</id>
   
   <author>
@@ -14,6 +14,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test comment</title>
+    <link href="http://zhaocy.github.io/2017-08-28-test-comment/"/>
+    <id>http://zhaocy.github.io/2017-08-28-test-comment/</id>
+    <published>2017-08-28T06:38:54.000Z</published>
+    <updated>2017-08-28T06:39:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是评论测试文章</p>
+<p>本文地址 <a href="http://zhaocy.github.io/2017-08-28-test-comment/">http://zhaocy.github.io/2017-08-28-test-comment/</a> GO!</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是评论测试文章&lt;/p&gt;
+&lt;p&gt;本文地址 &lt;a href=&quot;http://zhaocy.github.io/2017-08-28-test-comment/&quot;&gt;http://zhaocy.github.io/2017-08-28-test-comment/&lt;/a&gt; GO!&lt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Omni Graffle</title>
