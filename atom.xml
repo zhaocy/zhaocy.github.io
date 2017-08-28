@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaocy.github.io/"/>
-  <updated>2017-08-28T01:51:06.000Z</updated>
+  <updated>2017-08-28T03:45:54.000Z</updated>
   <id>http://zhaocy.github.io/</id>
   
   <author>
@@ -16,11 +16,43 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Omni Graffle</title>
+    <link href="http://zhaocy.github.io/2017-08-28-Omni-Graffle/"/>
+    <id>http://zhaocy.github.io/2017-08-28-Omni-Graffle/</id>
+    <published>2017-08-28T03:41:38.000Z</published>
+    <updated>2017-08-28T03:45:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>介绍</strong></p>
+<p>Omni Graffle 是Omni家族中的一款绘图软件，软件提供的工具多样，发挥你的想象，就可以绘制任何图形。</p>
+<p><strong>下载</strong></p>
+<p><a href="https://pan.baidu.com/s/1jImmUjG" target="_blank" rel="external">https://pan.baidu.com/s/1jImmUjG</a>   密码：w4ka</p>
+<p>本文地址 <a href="http://zhaocy.github.io/2017-08-28-Omni-Graffle/">http://zhaocy.github.io/2017-08-28-Omni-Graffle/</a> GO!</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;介绍&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Omni Graffle 是Omni家族中的一款绘图软件，软件提供的工具多样，发挥你的想象，就可以绘制任何图形。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;下载&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pa
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
+    
+    
+      <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="开发" scheme="http://zhaocy.github.io/tags/%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MAMP PRO</title>
     <link href="http://zhaocy.github.io/2017-08-28-MAMP-PRO/"/>
     <id>http://zhaocy.github.io/2017-08-28-MAMP-PRO/</id>
     <published>2017-08-28T01:48:23.000Z</published>
-    <updated>2017-08-28T01:51:06.000Z</updated>
+    <updated>2017-08-28T01:51:53.000Z</updated>
     
     <content type="html"><![CDATA[<p><strong>介绍</strong><br>一款搭建本地服务器环境的软件，它是一套组合软件，包含Apache MySQL PHP Macintosh四大开发环境。</p>
 <p><strong>下载</strong></p>
