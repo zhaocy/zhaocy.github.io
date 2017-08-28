@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaocy.github.io/"/>
-  <updated>2017-08-28T03:45:54.000Z</updated>
+  <updated>2017-08-28T18:16:14.000Z</updated>
   <id>http://zhaocy.github.io/</id>
   
   <author>
@@ -14,6 +14,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo集成gitment</title>
+    <link href="http://zhaocy.github.io/2017-08-29-hexo%E9%9B%86%E6%88%90gitment/"/>
+    <id>http://zhaocy.github.io/2017-08-29-hexo集成gitment/</id>
+    <published>2017-08-28T17:47:46.000Z</published>
+    <updated>2017-08-28T18:16:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>gitment集成到hexo网上也有一些文章，但是都不是很准确，支离破碎的，对此我梳理了一番。</p>
+<p>步骤一：注册OAuth App</p>
+<p>注册OAuth App前提你要有gitHub账号，打开<a href="https://github.com/settings/applications/new" target="_blank" rel="external">连接</a> 注册一个OAuth Application 。</p>
+<ul>
+<li>Application name 自己随便想一个</li>
+<li>Homepage URL 填写一个完整的URL，比如是你的博客的域名。</li>
+<li>Application description 描述（不是必填项）</li>
+<li>Authorization callback URL 是回调地址，主要是为了在你的博客所集成的gitment中，单击Login验证，然后再跳转你的博客域名（即回调地址）。</li>
+</ul>
+<p>一切就绪，”Register application” ，成功后会返回Client ID 和 Client Secret<br>后面在配置gitment时会用到。</p>
+<p>步骤二：配置_config.yml</p>
+<p>打开文件 themes/next/_config.yml</p>
+<p>添加如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">gitment:</div><div class="line">  enable: true</div><div class="line">  githubID: gitHub账号</div><div class="line">  repo: github上仓库的名称</div><div class="line">  ClientID: 步骤一申请的Client ID</div><div class="line">  ClientSecret: 步骤一申请的Client Secret</div></pre></td></tr></table></figure>
+<p>以上配置请如实填写，否则gitment会初始化失败。</p>
+<p>步骤三：添加样式文件</p>
+<p>在目录 themes/next/source/css/_common/components/下新建gitment.styl，代码如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div></pre></td><td class="code"><pre><div class="line">.gitment_title:hover &#123;</div><div class="line">    color: #fff;</div><div class="line">    background: #0a9caf;</div><div class="line">    background-image: initial;</div><div class="line">    background-position-x: initial;</div><div class="line">    background-position-y: initial;</div><div class="line">    background-size: initial;</div><div class="line">    background-repeat-x: initial;</div><div class="line">    background-repeat-y: initial;</div><div class="line">    background-attachment: initial;</div><div class="line">    background-origin: initial;</div><div class="line">    background-clip: initial;</div><div class="line">    background-color: rgb(10, 156, 175);</div><div class="line">&#125;</div><div class="line">.gitment_title &#123;</div><div class="line">    border: 1px solid #0a9caf;</div><div class="line">    border-top-color: rgb(10, 156, 175);</div><div class="line">    border-top-style: solid;</div><div class="line">    border-top-width: 1px;</div><div class="line">    border-right-color: rgb(10, 156, 175);</div><div class="line">    border-right-style: solid;</div><div class="line">    border-right-width: 1px;</div><div class="line">    border-bottom-color: rgb(10, 156, 175);</div><div class="line">    border-bottom-style: solid;</div><div class="line">    border-bottom-width: 1px;</div><div class="line">    border-left-color: rgb(10, 156, 175);</div><div class="line">    border-left-style: solid;</div><div class="line">    border-left-width: 1px;</div><div class="line">    border-image-source: initial;</div><div class="line">    border-image-slice: initial;</div><div class="line">    border-image-width: initial;</div><div class="line">    border-image-outset: initial;</div><div class="line">    border-image-repeat: initial;</div><div class="line">    border-radius: 4px;</div><div class="line">    border-top-left-radius: 4px;</div><div class="line">    border-top-right-radius: 4px;</div><div class="line">    border-bottom-right-radius: 4px;</div><div class="line">    border-bottom-left-radius: 4px;</div><div class="line">&#125;</div><div class="line">.gitment_title &#123;</div><div class="line">    display: inline-block;</div><div class="line">    padding: 0 15px;</div><div class="line">    padding-top: 0px;</div><div class="line">    padding-right: 15px;</div><div class="line">    padding-bottom: 0px;</div><div class="line">    padding-left: 15px;</div><div class="line">    color: #0a9caf;</div><div class="line">    cursor: pointer;</div><div class="line">    font-size: 14px;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>然后修改同目录下的comments.styl，代码如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">@import &quot;gitment&quot;;</div></pre></td></tr></table></figure>
+<p>步骤四：修改comments.swig</p>
+<p>打开文件 /theme/next/layout/_partials/comments.swig</p>
+<p>在最后一个 elseif 后面添加如下代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div></pre></td><td class="code"><pre><div class="line">&#123;% elseif theme.gitment.enable %&#125;</div><div class="line"></div><div class="line">      &lt;div onclick=&quot;showGitment()&quot; id=&quot;gitment_title&quot; class=&quot;gitment_title&quot;&gt;显示 Gitment 评论&lt;/div&gt;</div><div class="line">      &lt;div id=&quot;container&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;</div><div class="line"></div><div class="line">    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://imsun.github.io/gitment/style/default.css&quot;&gt;</div><div class="line">    &lt;script src=&quot;https://imsun.github.io/gitment/dist/gitment.browser.js&quot;&gt;&lt;/script&gt;</div><div class="line">    &lt;script&gt;</div><div class="line">    const myTheme = &#123;</div><div class="line">      render(state, instance) &#123;</div><div class="line">        const container = document.createElement(&apos;div&apos;);</div><div class="line">        container.lang = &quot;en-US&quot;;</div><div class="line">        container.className = &apos;gitment-container gitment-root-container&apos;;</div><div class="line">        container.appendChild(instance.renderHeader(state, instance));</div><div class="line">        container.appendChild(instance.renderEditor(state, instance));</div><div class="line">        container.appendChild(instance.renderComments(state, instance));</div><div class="line">        container.appendChild(instance.renderFooter(state, instance));</div><div class="line">        return container;</div><div class="line">      &#125;</div><div class="line">    &#125;</div><div class="line">    function showGitment() &#123;</div><div class="line">      $(&quot;#gitment_title&quot;).attr(&quot;style&quot;, &quot;display:none&quot;);</div><div class="line">      $(&quot;#container&quot;).attr(&quot;style&quot;, &quot;&quot;).addClass(&quot;gitment_container&quot;);</div><div class="line">      var gitment = new Gitment(&#123;</div><div class="line">        id: window.location.pathname,</div><div class="line">        theme: myTheme,</div><div class="line">        owner: &apos;&#123;&#123; theme.gitment.githubID &#125;&#125;&apos;,</div><div class="line">        repo: &apos;&#123;&#123; theme.gitment.repo &#125;&#125;&apos;,</div><div class="line">        oauth: &#123;</div><div class="line">          client_id: &apos;&#123;&#123; theme.gitment.ClientID &#125;&#125;&apos;,</div><div class="line">          client_secret: &apos;&#123;&#123; theme.gitment.ClientSecret &#125;&#125;&apos;</div><div class="line">        &#125;</div><div class="line">      &#125;);</div><div class="line">      gitment.render(&apos;container&apos;);</div><div class="line">    &#125;</div><div class="line">    &lt;/script&gt;   </div><div class="line"></div><div class="line">    &#123;% endif %&#125;</div></pre></td></tr></table></figure>
+<p>步骤五：使用</p>
+<p>gitment是使用了github的issue功能,即创建一篇新的文章后，需要单击“初始化”按钮，这样就会为文章创建一个以location.herf作为issue ID的评论了。</p>
+<p>本文地址 <a href="http://zhaocy.github.io/2017-08-29-hexo集成gitment/">http://zhaocy.github.io/2017-08-29-hexo集成gitment/</a> GO!</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;gitment集成到hexo网上也有一些文章，但是都不是很准确，支离破碎的，对此我梳理了一番。&lt;/p&gt;
+&lt;p&gt;步骤一：注册OAuth App&lt;/p&gt;
+&lt;p&gt;注册OAuth App前提你要有gitHub账号，打开&lt;a href=&quot;https://github.com/sett
+    
+    </summary>
+    
+      <category term="技术" scheme="http://zhaocy.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="hexo" scheme="http://zhaocy.github.io/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Omni Graffle</title>
