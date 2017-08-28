@@ -323,7 +323,7 @@
       
         
       
-      嗯..! 目前共计 19 篇日志。 继续努力。
+      嗯..! 目前共计 18 篇日志。 继续努力。
     </span>
 
     
@@ -337,43 +337,6 @@
         <div class="collection-title">
           <h2 class="archive-year motion-element" id="archive-year-2017">2017</h2>
         </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017-08-25-IntelliJ-IDEA-2017/" itemprop="url">
-              
-                <span itemprop="name">IntelliJ IDEA 2017</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-08-25T10:13:32+08:00"
-              content="2017-08-25" >
-          08-25
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
       
       
 
@@ -721,7 +684,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">19</span>
+                <span class="site-state-item-count">18</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -959,6 +922,42 @@
 
 
 
+
+
+
+   
+   
+   
+   
+   <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+   <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+   const myTheme = {
+    render(state, instance) {
+      const container = document.createElement('div');
+      container.lang = "en-US";
+      container.className = 'gitment-container gitment-root-container';
+      container.appendChild(instance.renderHeader(state, instance));
+      container.appendChild(instance.renderEditor(state, instance));
+      container.appendChild(instance.renderComments(state, instance));
+      container.appendChild(instance.renderFooter(state, instance));
+      return container;
+    }
+  }
+
+   
+       <script type="text/javascript">
+           var gitment = new Gitment({
+               id: window.location.pathname, 
+               theme: myTheme,
+               owner: 'zhaocy',
+               repo: 'zhaocy.github.io',
+               oauth: {
+                   client_id: '3e64e96da81eb6563791',
+                   client_secret: 'ca22b3047c820f5879ce5fb2d535e1dffbb8c433',
+               }});
+           gitment.render('gitment-container');
+       </script>
+   
 
 
 
