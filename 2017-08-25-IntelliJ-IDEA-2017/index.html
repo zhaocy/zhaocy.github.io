@@ -555,8 +555,8 @@
           
   <div class="comments" id="comments">
     
-        
-        显示 Gitment 评论
+       
+        <div id="gitment-container"></div>
         
     
   </div>
@@ -843,19 +843,15 @@
    
    
        
-           function ShowGitment(){
-               document.getElementById("gitment-display-button").style.display = "none";
-               document.getElementById("gitment-container").style.display = "block";
-               var gitment = new Gitment({
-                   id: document.location.href, 
-                   owner: '4354672',
-                   repo: 'zhaocy.github.io',
-                   oauth: {
-                       client_id: '3e64e96da81eb6563791',
-                       client_secret: 'ca22b3047c820f5879ce5fb2d535e1dffbb8c433',
-                   }});
-               gitment.render('gitment-container');
-           }
+           var gitment = new Gitment({
+              id: document.location.href, 
+               owner: '4354672',
+               repo: 'zhaocy.github.io',
+               oauth: {
+                   client_id: '3e64e96da81eb6563791',
+                   client_secret: 'ca22b3047c820f5879ce5fb2d535e1dffbb8c433',
+               }});
+           gitment.render('gitment-container');
        
    
 
