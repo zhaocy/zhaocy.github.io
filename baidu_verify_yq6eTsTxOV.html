@@ -341,8 +341,8 @@
   <div class="comments" id="comments">
     
 
-      <div onclick="showGitment()" id="gitment_title" class="gitment_title">显示 Gitment 评论</div>
-      <div id="container" style="display:none"></div>
+
+      <div id="container"></div>
       
     <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
@@ -360,8 +360,8 @@
       }
     }
     function showGitment() {
-      $("#gitment_title").attr("style", "display:none");
-      $("#container").attr("style", "").addClass("gitment_container");
+      
+      $("#container").addClass("gitment_container");
       var gitment = new Gitment({
         id: window.location.pathname,
         theme: myTheme,
@@ -374,7 +374,7 @@
       });
       gitment.render('container');
     }
-
+    showGitment();
     </script>   
 
     
