@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaocy.github.io/"/>
-  <updated>2017-08-29T02:06:27.000Z</updated>
+  <updated>2017-08-29T05:17:37.000Z</updated>
   <id>http://zhaocy.github.io/</id>
   
   <author>
@@ -16,11 +16,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>家常料理</title>
+    <link href="http://zhaocy.github.io/2017-08-29-%E5%AE%B6%E5%B8%B8%E6%96%99%E7%90%86/"/>
+    <id>http://zhaocy.github.io/2017-08-29-家常料理/</id>
+    <published>2017-08-29T05:09:07.000Z</published>
+    <updated>2017-08-29T05:17:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>快速、营养、有品位… 完全可以自动制作的菜肴佳品~</p>
+<p><img src="/2017-08-29-家常料理/01.png" alt="煲仔饭"></p>
+<p><img src="/2017-08-29-家常料理/02.png" alt="醋溜白菜鳗鱼干"></p>
+<p><img src="/2017-08-29-家常料理/03.png" alt="梅子茶泡饭"></p>
+<p><img src="/2017-08-29-家常料理/04.png" alt="青豆凉面"></p>
+<p><img src="/2017-08-29-家常料理/05.png" alt="糖醋排骨"></p>
+<p><img src="/2017-08-29-家常料理/06.png" alt="土豆焖饭"></p>
+<p><img src="/2017-08-29-家常料理/07.png" alt="味增汤面"></p>
+<p><img src="/2017-08-29-家常料理/08.png" alt="虾仁炒粉丝"></p>
+<p><img src="/2017-08-29-家常料理/09.png" alt="其它菜饭"></p>
+<p>本文地址 <a href="http://zhaocy.github.io/2017-08-29-家常料理/">http://zhaocy.github.io/2017-08-29-家常料理/</a> GO!</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;快速、营养、有品位… 完全可以自动制作的菜肴佳品~&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2017-08-29-家常料理/01.png&quot; alt=&quot;煲仔饭&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2017-08-29-家常料理/02.png&quot; alt=&quot;醋溜白菜鳗鱼干&quot;&gt;&lt;/
+    
+    </summary>
+    
+      <category term="生活" scheme="http://zhaocy.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="料理" scheme="http://zhaocy.github.io/tags/%E6%96%99%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Duet Display</title>
     <link href="http://zhaocy.github.io/2017-08-29-Duet-Display/"/>
     <id>http://zhaocy.github.io/2017-08-29-Duet-Display/</id>
     <published>2017-08-29T02:00:00.000Z</published>
-    <updated>2017-08-29T02:06:27.000Z</updated>
+    <updated>2017-08-29T02:14:00.000Z</updated>
     
     <content type="html"><![CDATA[<p><strong>介绍</strong><br>Duet Display 的应用可以将 iOS 设备变成 Mac 的第二块屏幕，这样你就可以在尽可能较低的成本下，扩展 Mac 的屏幕面积，从而大大的提高工作效率。</p>
 <p><strong>使用方法</strong><br>通过 USB 连接线将 iPad 扩展成 Mac / PC 的外接显示屏幕，或同时通过VGA或HDMI扩展。</p>
@@ -700,64 +735,6 @@
     
     
       <category term="小说" scheme="http://zhaocy.github.io/tags/%E5%B0%8F%E8%AF%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo入门</title>
-    <link href="http://zhaocy.github.io/2016-10-04-hexo%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/"/>
-    <id>http://zhaocy.github.io/2016-10-04-hexo常用功能/</id>
-    <published>2016-10-04T13:40:58.000Z</published>
-    <updated>2017-07-15T09:10:42.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="注册github-添加ssh-key-创建usernamegithubio"><a href="#注册Github、添加SSH-key-、创建username-github-io" class="headerlink" title="注册Github、添加SSH key 、创建username.github.io"></a>注册Github、添加SSH key 、创建username.github.io</h1><p>注册自然不用多说，直接来添加SSH key，windows可通过Git Bash来执行以下命令生成SSH key</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C <span class="string">"your_email@youremail.com"</span></div></pre></td></tr></table></figure>
-<p>一路回车将id_rsa.pub复制添加到github-settings-ssh keys即可</p>
-<p>创建repository，格式为username.github.io</p>
-<h1 id="安装hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><h2 id="执行以下命令"><a href="#执行以下命令：" class="headerlink" title="执行以下命令："></a>执行以下命令：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install-g hexo</div></pre></td></tr></table></figure>
-<h2 id="初始化"><a href="#初始化：" class="headerlink" title="初始化："></a>初始化：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo init</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<h2 id="生成静态资源"><a href="#生成静态资源：" class="headerlink" title="生成静态资源："></a>生成静态资源：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo g</div></pre></td></tr></table></figure>
-<h2 id="启动服务"><a href="#启动服务：" class="headerlink" title="启动服务："></a>启动服务：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo s</div></pre></td></tr></table></figure>
-<h2 id="创建文章"><a href="#创建文章：" class="headerlink" title="创建文章："></a>创建文章：</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new [layout] &lt;title&gt;</div></pre></td></tr></table></figure>
-<p>启动完成后可通过 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 来访问</p>
-<h1 id="配置_configyml"><a href="#配置-config-yml" class="headerlink" title="配置_config.yml"></a>配置_config.yml</h1><p>配置一些基本信息就不多说了，直接说怎么配置上传github，打开_config.yml，找到deploy，按照以下内容添加修改即可。</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repository:</span> <span class="string">git@github.com:username/username.github.io.git</span></div><div class="line"><span class="attr">  branch:</span> <span class="string">master</span></div></pre></td></tr></table></figure>
-<p>hexo需执行以下命令,否则上传不到github</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
-<p>执行以下命令部署到github</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo deploy</div></pre></td></tr></table></figure>
-<p>然后访问username.github.io就可以看到效果啦！</p>
-<p>以后每次部署需执行下面三步命令：</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo g</div><div class="line">hexo d</div></pre></td></tr></table></figure>
-<h1 id="绑定独立域名"><a href="#绑定独立域名" class="headerlink" title="绑定独立域名"></a>绑定独立域名</h1><p>在source文件夹新建CNAME文件内容为你的域名即可，例如：kulove.cc，最后将记录类型为CNAME的@、www解析到username.github.io即完成独立域名绑定。</p>
-<h1 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h1><p>ok，到这里hexo的安装已经告一段落了，但俗话说的好，人靠衣装马靠鞍，接下来我们要去换一款主题，这里以NexT为例</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> your-hexo-site</div><div class="line"></div><div class="line">git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure>
-<p>然后将_config.yml里的theme改为next即可。</p>
-<h1 id="资料参考"><a href="#资料参考" class="headerlink" title="资料参考"></a>资料参考</h1><ul>
-<li><a href="https://hexo.io" target="_blank" rel="external">Hexo官方</a></li>
-<li><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">NexT使用文档</a></li>
-</ul>
-<p>本文地址 <a href="http://zhaocy.github.io/2016-10-04-hexo常用功能/">http://zhaocy.github.io/2016-10-04-hexo常用功能/</a> GO!</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;注册Github、添加SSH-key-、创建username-github-io&quot;&gt;&lt;a href=&quot;#注册Github、添加SSH-key-、创建username-github-io&quot; class=&quot;headerlink&quot; title=&quot;注册Github、添加SSH key 、创建username.github.io&quot;&gt;&lt;/a&gt;注册Github、添加SSH key 、创建username.github.io&lt;/h1&gt;&lt;p&gt;注册自然不用多说，直接来添加SSH key，windows可通过Git Bash来执行以下命令生成SSH key&lt;/p&gt;
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;ssh-keygen -t rsa -C &lt;span class=&quot;string&quot;&gt;&quot;your_email@youremail.com&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;一路回车将id_rsa.pub复制添加到github-settings-ssh keys即可&lt;/p&gt;
-&lt;p&gt;创建repository，格式为username.github.io&lt;/p&gt;
-&lt;h1 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h1&gt;&lt;h2 id=&quot;执行以下命令：&quot;&gt;&lt;a href=&quot;#执行以下命令：&quot; class=&quot;headerlink&quot; title=&quot;执行以下命令：&quot;&gt;&lt;/a&gt;执行以下命令：&lt;/h2&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm install-g hexo&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;初始化：&quot;&gt;&lt;a href=&quot;#初始化：&quot; class=&quot;headerlink&quot; title=&quot;初始化：&quot;&gt;&lt;/a&gt;初始化：&lt;/h2&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo init&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-      <category term="技术" scheme="http://zhaocy.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="hexo安装" scheme="http://zhaocy.github.io/tags/hexo%E5%AE%89%E8%A3%85/"/>
-    
-      <category term="NexT" scheme="http://zhaocy.github.io/tags/NexT/"/>
     
   </entry>
   
