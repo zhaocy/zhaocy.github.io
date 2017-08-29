@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaocy.github.io/"/>
-  <updated>2017-08-28T18:16:14.000Z</updated>
+  <updated>2017-08-29T02:06:27.000Z</updated>
   <id>http://zhaocy.github.io/</id>
   
   <author>
@@ -14,6 +14,68 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Duet Display</title>
+    <link href="http://zhaocy.github.io/2017-08-29-Duet-Display/"/>
+    <id>http://zhaocy.github.io/2017-08-29-Duet-Display/</id>
+    <published>2017-08-29T02:00:00.000Z</published>
+    <updated>2017-08-29T02:06:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>介绍</strong><br>Duet Display 的应用可以将 iOS 设备变成 Mac 的第二块屏幕，这样你就可以在尽可能较低的成本下，扩展 Mac 的屏幕面积，从而大大的提高工作效率。</p>
+<p><strong>使用方法</strong><br>通过 USB 连接线将 iPad 扩展成 Mac / PC 的外接显示屏幕，或同时通过VGA或HDMI扩展。</p>
+<p><strong>同款比较</strong><br>TwomonUSB 的应用同Duet Display功能类似，区别：</p>
+<ul>
+<li>主机端： Duet Display 除了 OS X 10.9 以上之外，Windows 系统必须是 Windows 7 以上，而 TwomonUSB 最低系统需求是 Windows XP；</li>
+<li>扩展端：Duet Display 仅支持 iPad 作为扩展屏幕（最低 iPad 2 起），而 TwomonUSB 即支持 iPad（官方甚至声称支持 iPad 第一代），还支持 Android 平板。</li>
+</ul>
+<p><strong>下载</strong><br>App Store 搜索下载</p>
+<p>本文地址 <a href="http://zhaocy.github.io/2017-08-29-Duet-Display/">http://zhaocy.github.io/2017-08-29-Duet-Display/</a> GO!</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;介绍&lt;/strong&gt;&lt;br&gt;Duet Display 的应用可以将 iOS 设备变成 Mac 的第二块屏幕，这样你就可以在尽可能较低的成本下，扩展 Mac 的屏幕面积，从而大大的提高工作效率。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;使用方法&lt;/strong&gt;&lt;br
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
+    
+    
+      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Near Lock</title>
+    <link href="http://zhaocy.github.io/2017-08-29-Near-Lock/"/>
+    <id>http://zhaocy.github.io/2017-08-29-Near-Lock/</id>
+    <published>2017-08-29T01:55:43.000Z</published>
+    <updated>2017-08-29T01:57:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>介绍</strong><br>Near Lock 是一款 Mac/iOS 设备配套应用，它能够根据你的 Mac 与 iOS 设备距离来解锁、锁定 Mac 系统，并且支持通过 Touch ID 解锁</p>
+<p><strong>下载</strong><br>App Store就可以下载（iPhone mac iWatch）</p>
+<p>本文地址 <a href="http://zhaocy.github.io/2017-08-29-Near-Lock/">http://zhaocy.github.io/2017-08-29-Near-Lock/</a> GO!</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;介绍&lt;/strong&gt;&lt;br&gt;Near Lock 是一款 Mac/iOS 设备配套应用，它能够根据你的 Mac 与 iOS 设备距离来解锁、锁定 Mac 系统，并且支持通过 Touch ID 解锁&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;下载&lt;/strong&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
+    
+    
+      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo集成gitment</title>
@@ -696,40 +758,6 @@
       <category term="hexo安装" scheme="http://zhaocy.github.io/tags/hexo%E5%AE%89%E8%A3%85/"/>
     
       <category term="NexT" scheme="http://zhaocy.github.io/tags/NexT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>嫌疑人X的献身</title>
-    <link href="http://zhaocy.github.io/2016-08-22-%E5%AB%8C%E7%96%91%E4%BA%BAX%E7%9A%84%E7%8C%AE%E8%BA%AB/"/>
-    <id>http://zhaocy.github.io/2016-08-22-嫌疑人X的献身/</id>
-    <published>2016-08-22T08:10:52.000Z</published>
-    <updated>2017-07-20T05:21:26.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/2016-08-22-嫌疑人X的献身/xianyirenxdexianshen.jpg" alt="嫌疑人X的献身"></p>
-<p>百年一遇的数学天才石神，每天唯一的乐趣，便是去固定的便当店买午餐，只为看一眼在便当店做事的邻居靖子。靖子与女儿相依为命，失手杀了前来纠缠的前夫。石神提出由他料理善后。石神设了一个匪夷所思的局，令警方始终只能在外围敲敲打打……</p>
-<blockquote>
-<p>作者</p>
-</blockquote>
-<p>东野圭吾[日] </p>
-<blockquote>
-<p>下载</p>
-</blockquote>
-<p><a href="http://www.zoudupai.com/note/7101" target="_blank" rel="external">http://www.zoudupai.com/note/7101</a></p>
-<p>本文地址 <a href="http://zhaocy.github.io/2016-08-22-嫌疑人X的献身/">http://zhaocy.github.io/2016-08-22-嫌疑人X的献身/</a> GO!</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/2016-08-22-嫌疑人X的献身/xianyirenxdexianshen.jpg&quot; alt=&quot;嫌疑人X的献身&quot;&gt;&lt;/p&gt;
-&lt;p&gt;百年一遇的数学天才石神，每天唯一的乐趣，便是去固定的便当店买午餐，只为看一眼在便当店做事的邻居靖子。靖子与女儿相依为命
-    
-    </summary>
-    
-      <category term="读书" scheme="http://zhaocy.github.io/categories/%E8%AF%BB%E4%B9%A6/"/>
-    
-    
-      <category term="小说" scheme="http://zhaocy.github.io/tags/%E5%B0%8F%E8%AF%B4/"/>
     
   </entry>
   
