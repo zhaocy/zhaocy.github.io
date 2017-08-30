@@ -4,6 +4,46 @@
 
     
   <url>
+    <loc>http://zhaocy.github.io/2017-08-29-hexo%E9%9B%86%E6%88%90gitment/</loc>
+    <lastmod>2017-08-30T06:18:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo集成gitment</title>
+        <pubTime>2017-08-28T17:47:46.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术" url="http://zhaocy.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaocy.github.io/2017-08-29-%E5%AE%B6%E5%B8%B8%E6%96%99%E7%90%86/</loc>
+    <lastmod>2017-08-30T06:18:20.000Z</lastmod>
+    <data>
+        <display>
+        <title>家常料理</title>
+        <pubTime>2017-08-29T05:09:07.000Z</pubTime>
+        
+        <tag>料理</tag>
+         
+         
+           
+             
+              <breadCrumb title="生活" url="http://zhaocy.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://zhaocy.github.io/2017-08-30-%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87/</loc>
     <lastmod>2017-08-30T06:16:50.000Z</lastmod>
     <data>
@@ -17,26 +57,6 @@
            
              
               <breadCrumb title="Mac" url="http://zhaocy.github.io/categories/Mac/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaocy.github.io/2017-08-29-%E5%AE%B6%E5%B8%B8%E6%96%99%E7%90%86/</loc>
-    <lastmod>2017-08-30T06:16:32.000Z</lastmod>
-    <data>
-        <display>
-        <title>家常料理</title>
-        <pubTime>2017-08-29T05:09:07.000Z</pubTime>
-        
-        <tag>料理</tag>
-         
-         
-           
-             
-              <breadCrumb title="生活" url="http://zhaocy.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
           
         </display>
     </data>
@@ -417,26 +437,6 @@
            
              
               <breadCrumb title="Mac" url="http://zhaocy.github.io/categories/Mac/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaocy.github.io/2017-08-29-hexo%E9%9B%86%E6%88%90gitment/</loc>
-    <lastmod>2017-08-28T18:16:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo集成gitment</title>
-        <pubTime>2017-08-28T17:47:46.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术" url="http://zhaocy.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
           
         </display>
     </data>
