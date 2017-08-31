@@ -326,6 +326,302 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://zhaocy.github.io/2017-08-29-hexo集成gitment/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Gene Zhao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Gene Zhao's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017-08-29-hexo集成gitment/" itemprop="url">hexo集成gitment</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-29T01:47:46+08:00">
+                2017-08-29
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+          <span class="post-meta-divider">|</span>
+          字数统计:<span class="post-count">705</span> 阅读时长预计: <span class="post-count">4 min</span> 
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>gitment集成到hexo网上也有一些文章，但是都不是很准确，支离破碎的，对此我梳理了一番。</p>
+<p>步骤一：注册OAuth App</p>
+<p>注册OAuth App前提你要有gitHub账号，打开<a href="https://github.com/settings/applications/new" target="_blank" rel="external">连接</a> 注册一个OAuth Application 。</p>
+<ul>
+<li>Application name 自己随便想一个</li>
+<li>Homepage URL 填写一个完整的URL，比如是你的博客的域名。</li>
+<li>Application description 描述（不是必填项）</li>
+<li>Authorization callback URL 是回调地址，主要是为了在你的博客所集成的gitment中，单击Login验证，然后再跳转你的博客域名（即回调地址）。</li>
+</ul>
+<p>一切就绪，”Register application” ，成功后会返回Client ID 和 Client Secret<br>后面在配置gitment时会用到。</p>
+<p>步骤二：配置_config.yml</p>
+<p>打开文件 themes/next/_config.yml</p>
+<p>添加如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">gitment:</div><div class="line">  enable: true</div><div class="line">  githubID: gitHub账号</div><div class="line">  repo: github上仓库的名称</div><div class="line">  ClientID: 步骤一申请的Client ID</div><div class="line">  ClientSecret: 步骤一申请的Client Secret</div></pre></td></tr></table></figure>
+<p>以上配置请如实填写，否则gitment会初始化失败。</p>
+<p>步骤三：添加样式文件</p>
+<p>在目录 themes/next/source/css/_common/components/下新建gitment.styl，代码如下：</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017-08-29-hexo集成gitment/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://zhaocy.github.io/2017-08-28-Omni-Graffle/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Gene Zhao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Gene Zhao's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017-08-28-Omni-Graffle/" itemprop="url">Omni Graffle</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-28T11:41:38+08:00">
+                2017-08-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Mac/" itemprop="url" rel="index">
+                    <span itemprop="name">Mac</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+          <span class="post-meta-divider">|</span>
+          字数统计:<span class="post-count">65</span> 阅读时长预计: <span class="post-count">1 min</span> 
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><strong>介绍</strong></p>
+<p>Omni Graffle 是Omni家族中的一款绘图软件，软件提供的工具多样，发挥你的想象，就可以绘制任何图形。</p>
+<p><strong>下载</strong></p>
+<p><a href="https://pan.baidu.com/s/1jImmUjG" target="_blank" rel="external">https://pan.baidu.com/s/1jImmUjG</a>   密码：w4ka</p>
+<p>本文地址 <a href="http://zhaocy.github.io/2017-08-28-Omni-Graffle/">http://zhaocy.github.io/2017-08-28-Omni-Graffle/</a> GO!</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://zhaocy.github.io/2017-08-28-MAMP-PRO/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1451,297 +1747,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://zhaocy.github.io/2017-08-25-IntelliJ-IDEA-2017/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Gene Zhao">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Gene Zhao's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017-08-25-IntelliJ-IDEA-2017/" itemprop="url">IntelliJ IDEA 2017</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-25T10:13:32+08:00">
-                2017-08-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Mac/" itemprop="url" rel="index">
-                    <span itemprop="name">Mac</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-          <span class="post-meta-divider">|</span>
-          字数统计:<span class="post-count">98</span> 阅读时长预计: <span class="post-count">1 min</span> 
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><strong>简单说明下IntelliJ IDEA的破解方法</strong>：</p>
-<ol>
-<li>打开dmg镜像，将“IntelliJ IDEA.app”拖入到应用程序中；</li>
-<li>打开应用程序中的“IntelliJ IDEA.app”，选择“License Server”,在“License Server address”里输入一下地址完成注册：</li>
-</ol>
-<p><code>http://xidea.online</code></p>
-<p>3.Have Done!</p>
-<p><strong>下载</strong></p>
-<p><a href="https://pan.baidu.com/share/init?shareid=229328805&amp;uk=3355908067" target="_blank" rel="external">IntelliJ IDEA 2017.1.1 Mac破解版下载</a>  密码：sdgu</p>
-<p>本文地址 <a href="http://zhaocy.github.io/2017-08-25-IntelliJ-IDEA-2017/">http://zhaocy.github.io/2017-08-25-IntelliJ-IDEA-2017/</a> GO!</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://zhaocy.github.io/2017-07-16-空中杀人现场/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Gene Zhao">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Gene Zhao's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017-07-16-空中杀人现场/" itemprop="url">空中杀人现场</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-16T09:58:06+08:00">
-                2017-07-16
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/读书/" itemprop="url" rel="index">
-                    <span itemprop="name">读书</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-          <span class="post-meta-divider">|</span>
-          字数统计:<span class="post-count">140</span> 阅读时长预计: <span class="post-count">1 min</span> 
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><img src="/2017-07-16-空中杀人现场/kongzhongsharenxianchang.jpg" alt="空中杀人现场"></p>
-<p>《空中杀人现场》是东野圭吾笔下罕见的诙谐幽默故事，也是精巧的本格推理杰作。空姐小A和小B是一对性格迥异却非常合拍的密友，小A沉稳大方、心思缜密，小B俏皮可爱、不拘小节。在离地万米的机舱里，面对形形色色的旅客，她们总是卷入意想不到的诡异事件。</p>
-<blockquote>
-<p>作者</p>
-</blockquote>
-<p>东野圭吾[日] </p>
-<blockquote>
-<p>下载</p>
-</blockquote>
-<p><a href="http://www.zoudupai.com/note/34102" target="_blank" rel="external">http://www.zoudupai.com/note/34102</a></p>
-<p>本文地址 <a href="http://zhaocy.github.io/2017-07-16-空中杀人现场/">http://zhaocy.github.io/2017-07-16-空中杀人现场/</a> GO!</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1791,7 +1796,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">27</span>
+                <span class="site-state-item-count">29</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1813,7 +1818,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">16</span>
+                <span class="site-state-item-count">18</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
