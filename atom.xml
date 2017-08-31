@@ -39,11 +39,11 @@
       <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
     
     
-      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
       <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="破解" scheme="http://zhaocy.github.io/tags/%E7%A0%B4%E8%A7%A3/"/>
+    
+      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -52,7 +52,7 @@
     <link href="http://zhaocy.github.io/2017-08-30-%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87/"/>
     <id>http://zhaocy.github.io/2017-08-30-装机必备/</id>
     <published>2017-08-30T01:40:24.000Z</published>
-    <updated>2017-08-30T06:16:50.000Z</updated>
+    <updated>2017-08-31T05:32:18.000Z</updated>
     
     <content type="html"><![CDATA[<p>我的本本是MacBook Pro 2016款 15寸，用了有一段时间了，给大家分享下我在生活和工作中一些常用软件，破解的软件在博客里有独立介绍破解方法。</p>
 <blockquote>
@@ -87,7 +87,8 @@
 <p>Yummy FTP</p>
 </blockquote>
 <pre><code>FTP客户端工具，开发运维使用，博客分享了破解版。
-</code></pre><blockquote>
+</code></pre><a id="more"></a>
+<blockquote>
 <p>迅雷</p>
 </blockquote>
 <pre><code>下载利器，曾经的流氓软件，App Store下载
@@ -99,7 +100,7 @@
 <p>IntelliJ IDEA</p>
 </blockquote>
 <pre><code>从Eclipse痛苦的转移到幸福使用的神器，集成开发工具必备。博客分享了破解版。
-</code></pre><a id="more"></a>
+</code></pre><!-- more -->
 <blockquote>
 <p>Chrome</p>
 </blockquote>
@@ -135,9 +136,58 @@
 </code></pre><blockquote>
 <p>Microsoft office</p>
 </blockquote>
-<p>这个不用解释了，办公必备,博客分享了破解版。</p>
+<pre><code>这个不用解释了，办公必备,博客分享了破解版。
+</code></pre><blockquote>
+<p>1Password</p>
+</blockquote>
+<p>   高强度加密你的登录账号、服务器密码、数据库密码…,尽管Mac自带密钥工具，但是1Password是多终端的。博客分享了破解版。 </p>
 <blockquote>
-<p>1Password<br>有道云笔记<br>Teambition<br>EdrawMax<br>Dash<br>Near Lock<br>Gemini<br>CleanMyMac<br>Camtasia<br>Sublime Text<br>Star UML<br>XMind<br>BetterZip<br>calibre<br>Paste<br>Magnet<br>PDF Expert<br>NewFileMenu<br>网易有道词典<br>Charles<br>Path Finder<br>Picase<br>百度云同步盘<br>PhoneClean<br>Parallels Desktop<br>DEVONthink Pro Office<br>Alfred<br>Polarr Photo Editor<br>duet<br>Navicat Premium<br>Snagit</p>
+<p>有道云笔记</p>
+</blockquote>
+<pre><code>记录个人学习、工作、生活笔记，支持MD,密码箱，诸如此类笔记本还有很多，笔记印象笔记、蚂蚁笔记等，各有特色。App Store有下载。
+</code></pre><blockquote>
+<p>Teambition</p>
+</blockquote>
+<pre><code>团队项目协作任务管理软件，多终端的，经常用。
+</code></pre><blockquote>
+<p>EdrawMax</p>
+</blockquote>
+<pre><code>中文名称叫亿图，顾名思义，可以绘制任何图，windows和mac下都用过绘制各种图，但遇到Omni Graffle，还是倾向后者。博客分享了破解版。
+</code></pre><blockquote>
+<p>Dash</p>
+</blockquote>
+<pre><code>各种API文档管理工具，还有添加笔记，开发者必备，Windows平台下有个类似的工具 - Velocity. 博客分享了Dash破解版。
+</code></pre><blockquote>
+<p>Near Lock</p>
+</blockquote>
+<pre><code>一款可以通过Iphone锁屏Mac的软件，还可以拍照记录解锁时Mac前的场景。AppStore下载。
+</code></pre><blockquote>
+<p>Gemini</p>
+</blockquote>
+<pre><code>可以找出所有相同的文件，一遍节约存储空间。博客分享了破解版。
+</code></pre><blockquote>
+<p>CleanMyMac</p>
+</blockquote>
+<pre><code>清理和优化Mac内存，还有卸载软件等功能，装备必备啊。博客分享了破解版。
+</code></pre><blockquote>
+<p>Camtasia</p>
+</blockquote>
+<pre><code>一款非常专业的录屏软件，强大的视频剪辑功能，用过的都知道。博客分享了破解版。
+</code></pre><blockquote>
+<p>Sublime Text</p>
+</blockquote>
+<pre><code>文本编辑工具，众多插件支持，编写代码都非常快捷。博客分享了破解版。
+</code></pre><blockquote>
+<p>Star UML</p>
+</blockquote>
+<pre><code>UML绘图工具，应该是Mac下一款最好用的了，韩国人开发的。博客分享了破解版。
+</code></pre><blockquote>
+<p>XMind</p>
+</blockquote>
+<pre><code>思维导图，比起Windows下的版本，功能上阉割了不少，Mindjet Manager在Mac下又非常卡，OmniGraffle又有点力不从心。博客分享了破解版。
+</code></pre><blockquote>
+<p>BetterZip</p>
+<p>calibre<br>Paste<br>Magnet<br>PDF Expert<br>NewFileMenu<br>网易有道词典<br>Charles<br>Path Finder<br>Picase<br>百度云同步盘<br>PhoneClean<br>Parallels Desktop<br>DEVONthink Pro Office<br>Alfred<br>Polarr Photo Editor<br>duet<br>Navicat Premium<br>Snagit</p>
 </blockquote>
 <p>本文地址 <a href="http://zhaocy.github.io/2017-08-30-装机必备/">http://zhaocy.github.io/2017-08-30-装机必备/</a> GO!</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
@@ -177,18 +227,6 @@
 &lt;p&gt;Yummy FTP&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;pre&gt;&lt;code&gt;FTP客户端工具，开发运维使用，博客分享了破解版。
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;迅雷&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;下载利器，曾经的流氓软件，App Store下载
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;百度网盘&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;做为众多垂死挣扎的免费云盘的最终幸存者，从刚上线就在用，里面已经放了很多学习资料。App Store下载。
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;IntelliJ IDEA&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;从Eclipse痛苦的转移到幸福使用的神器，集成开发工具必备。博客分享了破解版。
 &lt;/code&gt;&lt;/pre&gt;
     
     </summary>
@@ -223,11 +261,11 @@
       <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
     
     
-      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
       <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="破解" scheme="http://zhaocy.github.io/tags/%E7%A0%B4%E8%A7%A3/"/>
+    
+      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -255,11 +293,11 @@
       <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
     
     
-      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
       <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="破解" scheme="http://zhaocy.github.io/tags/%E7%A0%B4%E8%A7%A3/"/>
+    
+      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -287,11 +325,11 @@
       <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
     
     
-      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
       <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="破解" scheme="http://zhaocy.github.io/tags/%E7%A0%B4%E8%A7%A3/"/>
+    
+      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -358,9 +396,9 @@
       <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
     
     
-      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
       <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -386,9 +424,9 @@
       <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
     
     
-      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
       <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -582,11 +620,11 @@
       <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
     
     
-      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
       <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="破解" scheme="http://zhaocy.github.io/tags/%E7%A0%B4%E8%A7%A3/"/>
+    
+      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -658,11 +696,11 @@
       <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
     
     
-      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
       <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="破解" scheme="http://zhaocy.github.io/tags/%E7%A0%B4%E8%A7%A3/"/>
+    
+      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -692,11 +730,11 @@
       <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
     
     
-      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
       <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="破解" scheme="http://zhaocy.github.io/tags/%E7%A0%B4%E8%A7%A3/"/>
+    
+      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -733,11 +771,11 @@
       <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
     
     
+      <category term="系统" scheme="http://zhaocy.github.io/tags/%E7%B3%BB%E7%BB%9F/"/>
+    
       <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="破解" scheme="http://zhaocy.github.io/tags/%E7%A0%B4%E8%A7%A3/"/>
-    
-      <category term="系统" scheme="http://zhaocy.github.io/tags/%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
@@ -775,11 +813,11 @@
       <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
     
     
+      <category term="系统" scheme="http://zhaocy.github.io/tags/%E7%B3%BB%E7%BB%9F/"/>
+    
       <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="破解" scheme="http://zhaocy.github.io/tags/%E7%A0%B4%E8%A7%A3/"/>
-    
-      <category term="系统" scheme="http://zhaocy.github.io/tags/%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
