@@ -277,47 +277,64 @@
     <link href="http://zhaocy.github.io/2017-08-30-%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87/"/>
     <id>http://zhaocy.github.io/2017-08-30-装机必备/</id>
     <published>2017-08-30T01:40:24.000Z</published>
-    <updated>2017-09-01T01:42:03.000Z</updated>
+    <updated>2017-09-03T02:50:23.000Z</updated>
     
     <content type="html"><![CDATA[<p>我的本本是MacBook Pro 2016款 15寸，用了有一段时间了，给大家分享下我在生活和工作中一些常用软件，破解的软件在博客里有独立介绍破解方法。</p>
 <blockquote>
-<p>钉钉</p>
+<p>社交类</p>
 </blockquote>
-<pre><code>办公协作软件，工作需要，每天都在使用。桌面、手机都有跨平台版本。App Store下载
-</code></pre><blockquote>
-<p>微信</p>
-</blockquote>
-<pre><code>国民软件，生活工作必不可少。App Store下载
-</code></pre><blockquote>
-<p>QQ</p>
-</blockquote>
-<pre><code>社区娱乐聊天软件，曾经的聊天神器，现在很少使用了，几乎成为鸡肋。 App Store下载
-</code></pre><blockquote>
-<p>阿里旺旺</p>
-</blockquote>
-<pre><code>淘宝、天猫购物必备。 App Store下载
-</code></pre><blockquote>
-<p>Mapio</p>
-</blockquote>
-<pre><code>新浪微博客户端工具。 App Store下载。
-</code></pre><blockquote>
-<p>EasyConnect</p>
-</blockquote>
-<pre><code>连接阿里云的VPN工具，工作之需。官网提供。
-</code></pre><blockquote>
-<p>vSSH</p>
-</blockquote>
-<pre><code>SSH客户端工具，做开发的都懂。博客分享了破解版。
-</code></pre><blockquote>
-<p>Yummy FTP</p>
-</blockquote>
-<pre><code>FTP客户端工具，开发运维使用，博客分享了破解版。
-</code></pre><a id="more"></a>
+<ul>
+<li><p>钉钉</p>
+<p>  办公协作软件，工作需要，每天都在使用。桌面、手机都有跨平台版本。App Store下载</p>
+<p>  🖥 <code>windows</code> <code>Mac</code> <code>iphone</code> <code>Android</code></p>
+</li>
+<li><p>微信</p>
+<p>  国民软件，生活工作必不可少。App Store下载</p>
+<p>  🖥 <code>windows</code> <code>Mac</code> <code>iphone</code> <code>Android</code></p>
+</li>
+<li><p>QQ</p>
+<p>  社区娱乐聊天软件，曾经的聊天神器，现在很少使用了，几乎成为鸡肋。 App Store下载</p>
+<p>  🖥 <code>windows</code> <code>Mac</code> <code>iphone</code> <code>Android</code></p>
+</li>
+<li><p>阿里旺旺</p>
+<p>  淘宝、天猫购物必备。 App Store下载</p>
+<p>  🖥 <code>windows</code> <code>Mac</code> <code>iphone</code> <code>Android</code></p>
+</li>
+<li><p>Mapio</p>
+<p>  新浪微博客户端工具。 App Store下载。</p>
+<p>  🖥 <code>windows</code> <code>Mac</code> <code>iphone</code> <code>Android</code></p>
+</li>
+</ul>
 <blockquote>
-<p>迅雷</p>
+<p>上传下载</p>
 </blockquote>
-<pre><code>下载利器，曾经的流氓软件，App Store下载
-</code></pre><blockquote>
+<ul>
+<li><p>迅雷</p>
+<p>  下载利器，曾经的流氓软件，App Store下载。</p>
+<p>  🖥 <code>windows</code> <code>Mac</code> <code>iphone</code> <code>Android</code></p>
+</li>
+<li><p>Yummy FTP</p>
+<p>  FTP客户端工具，开发运维使用，博客分享了破解版。</p>
+<p>  🖥 <code>Mac</code></p>
+</li>
+</ul>
+<blockquote>
+<p>远程连接 </p>
+</blockquote>
+<ul>
+<li><p>EasyConnect</p>
+<p>  连接阿里云的VPN工具，工作之需。官网提供。</p>
+</li>
+</ul>
+<pre><code>🖥 `Windows` `Mac`
+</code></pre><ul>
+<li><p>vSSH</p>
+<p>  SSH客户端工具，做开发的都懂。博客分享了破解版。</p>
+<p>  🖥 <code>Mac</code></p>
+</li>
+</ul>
+<a id="more"></a>
+<blockquote>
 <p>百度网盘</p>
 </blockquote>
 <pre><code>做为众多垂死挣扎的免费云盘的最终幸存者，从刚上线就在用，里面已经放了很多学习资料。App Store下载。
@@ -498,38 +515,58 @@
     
       &lt;p&gt;我的本本是MacBook Pro 2016款 15寸，用了有一段时间了，给大家分享下我在生活和工作中一些常用软件，破解的软件在博客里有独立介绍破解方法。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;钉钉&lt;/p&gt;
+&lt;p&gt;社交类&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;办公协作软件，工作需要，每天都在使用。桌面、手机都有跨平台版本。App Store下载
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;微信&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;钉钉&lt;/p&gt;
+&lt;p&gt;  办公协作软件，工作需要，每天都在使用。桌面、手机都有跨平台版本。App Store下载&lt;/p&gt;
+&lt;p&gt;  🖥 &lt;code&gt;windows&lt;/code&gt; &lt;code&gt;Mac&lt;/code&gt; &lt;code&gt;iphone&lt;/code&gt; &lt;code&gt;Android&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;微信&lt;/p&gt;
+&lt;p&gt;  国民软件，生活工作必不可少。App Store下载&lt;/p&gt;
+&lt;p&gt;  🖥 &lt;code&gt;windows&lt;/code&gt; &lt;code&gt;Mac&lt;/code&gt; &lt;code&gt;iphone&lt;/code&gt; &lt;code&gt;Android&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;QQ&lt;/p&gt;
+&lt;p&gt;  社区娱乐聊天软件，曾经的聊天神器，现在很少使用了，几乎成为鸡肋。 App Store下载&lt;/p&gt;
+&lt;p&gt;  🖥 &lt;code&gt;windows&lt;/code&gt; &lt;code&gt;Mac&lt;/code&gt; &lt;code&gt;iphone&lt;/code&gt; &lt;code&gt;Android&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;阿里旺旺&lt;/p&gt;
+&lt;p&gt;  淘宝、天猫购物必备。 App Store下载&lt;/p&gt;
+&lt;p&gt;  🖥 &lt;code&gt;windows&lt;/code&gt; &lt;code&gt;Mac&lt;/code&gt; &lt;code&gt;iphone&lt;/code&gt; &lt;code&gt;Android&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Mapio&lt;/p&gt;
+&lt;p&gt;  新浪微博客户端工具。 App Store下载。&lt;/p&gt;
+&lt;p&gt;  🖥 &lt;code&gt;windows&lt;/code&gt; &lt;code&gt;Mac&lt;/code&gt; &lt;code&gt;iphone&lt;/code&gt; &lt;code&gt;Android&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;上传下载&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;国民软件，生活工作必不可少。App Store下载
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;QQ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;迅雷&lt;/p&gt;
+&lt;p&gt;  下载利器，曾经的流氓软件，App Store下载。&lt;/p&gt;
+&lt;p&gt;  🖥 &lt;code&gt;windows&lt;/code&gt; &lt;code&gt;Mac&lt;/code&gt; &lt;code&gt;iphone&lt;/code&gt; &lt;code&gt;Android&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Yummy FTP&lt;/p&gt;
+&lt;p&gt;  FTP客户端工具，开发运维使用，博客分享了破解版。&lt;/p&gt;
+&lt;p&gt;  🖥 &lt;code&gt;Mac&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;远程连接 &lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;社区娱乐聊天软件，曾经的聊天神器，现在很少使用了，几乎成为鸡肋。 App Store下载
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;阿里旺旺&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;淘宝、天猫购物必备。 App Store下载
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;Mapio&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;新浪微博客户端工具。 App Store下载。
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;EasyConnect&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;连接阿里云的VPN工具，工作之需。官网提供。
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;vSSH&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;SSH客户端工具，做开发的都懂。博客分享了破解版。
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;Yummy FTP&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;FTP客户端工具，开发运维使用，博客分享了破解版。
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;EasyConnect&lt;/p&gt;
+&lt;p&gt;  连接阿里云的VPN工具，工作之需。官网提供。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;🖥 `Windows` `Mac`
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;vSSH&lt;/p&gt;
+&lt;p&gt;  SSH客户端工具，做开发的都懂。博客分享了破解版。&lt;/p&gt;
+&lt;p&gt;  🖥 &lt;code&gt;Mac&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
