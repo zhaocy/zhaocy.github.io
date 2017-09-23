@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaocy.github.io/"/>
-  <updated>2017-09-23T13:56:35.000Z</updated>
+  <updated>2017-09-23T14:03:40.000Z</updated>
   <id>http://zhaocy.github.io/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://zhaocy.github.io/2017-09-23-%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/"/>
     <id>http://zhaocy.github.io/2017-09-23-视频测试/</id>
     <published>2017-09-23T13:45:58.000Z</published>
-    <updated>2017-09-23T13:56:35.000Z</updated>
+    <updated>2017-09-23T14:03:40.000Z</updated>
     
-    <content type="html"><![CDATA[<embed allowscriptaccess="always" allowfullscreen="true" wmode="transparent" quality="high" height="300" width="480" src="http://t.cn/RN78qlQ">
+    <content type="html"><![CDATA[<embed type="video/mp4" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" quality="high" height="300" width="480" src="http://player.video.qiyi.com/7b5f4a4456af8939c6666045685088f8/0/53/v_19rr8ven2k.swf-albumId=204754001-tvId=797908000-isPurchase=0-cnId=25">
 
 
 
@@ -33,7 +33,7 @@
     
     <summary type="html">
     
-      &lt;embed allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; wmode=&quot;transparent&quot; quality=&quot;high&quot; height=&quot;300&quot; width=&quot;480&quot; src=&quot;http://t.cn/RN78ql
+      &lt;embed type=&quot;video/mp4&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; wmode=&quot;transparent&quot; quality=&quot;high&quot; height=&quot;300&quot; width=&quot;480&quot; src=&quot;h
     
     </summary>
     
