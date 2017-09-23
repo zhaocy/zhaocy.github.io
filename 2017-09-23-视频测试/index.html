@@ -113,17 +113,17 @@
 
 
 
-<meta name="description" content="本文地址 http://zhaocy.github.io/2017-09-23-视频测试/ GO!">
+<meta name="description" content="new APlayer({ 				element: document.getElementById(&quot;aplayer0&quot;), 				narrow: false, 				autoplay: false, 				showlrc: 0, 				music: { 					title: &quot;HUSH&quot;, 					author: &quot;Lasse Lindh&quot;, 					url: &quot;">
 <meta name="keywords" content="在线视频">
 <meta property="og:type" content="article">
 <meta property="og:title" content="视频测试">
 <meta property="og:url" content="http://zhaocy.github.io/2017-09-23-视频测试/index.html">
 <meta property="og:site_name" content="Gene Zhao&#39;s Blog">
-<meta property="og:description" content="本文地址 http://zhaocy.github.io/2017-09-23-视频测试/ GO!">
-<meta property="og:updated_time" content="2017-09-23T14:03:40.000Z">
+<meta property="og:description" content="new APlayer({ 				element: document.getElementById(&quot;aplayer0&quot;), 				narrow: false, 				autoplay: false, 				showlrc: 0, 				music: { 					title: &quot;HUSH&quot;, 					author: &quot;Lasse Lindh&quot;, 					url: &quot;">
+<meta property="og:updated_time" content="2017-09-23T14:43:57.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="视频测试">
-<meta name="twitter:description" content="本文地址 http://zhaocy.github.io/2017-09-23-视频测试/ GO!">
+<meta name="twitter:description" content="new APlayer({ 				element: document.getElementById(&quot;aplayer0&quot;), 				narrow: false, 				autoplay: false, 				showlrc: 0, 				music: { 					title: &quot;HUSH&quot;, 					author: &quot;Lasse Lindh&quot;, 					url: &quot;">
 
 
 
@@ -179,7 +179,7 @@
 
 
 
-</head>
+<script src="/assets/js/DPlayer.min.js"></script></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
@@ -371,7 +371,7 @@
             
           
           <span class="post-meta-divider">|</span>
-          字数统计:<span class="post-count">16</span> 阅读时长预计: <span class="post-count">1 min</span> 
+          字数统计:<span class="post-count">20</span> 阅读时长预计: <span class="post-count">1 min</span> 
 
           
           
@@ -392,12 +392,23 @@
       
 
       
-        <embed type="video/mp4" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" quality="high" height="300" width="480" src="http://player.video.qiyi.com/7b5f4a4456af8939c6666045685088f8/0/53/v_19rr8ven2k.swf-albumId=204754001-tvId=797908000-isPurchase=0-cnId=25">
-
-
-
-
-
+        <script src="/assets/js/APlayer.min.js"> </script><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
+		<script>
+			new APlayer({
+				element: document.getElementById("aplayer0"),
+				narrow: false,
+				autoplay: false,
+				showlrc: 0,
+				music: {
+					title: "HUSH",
+					author: "Lasse Lindh",
+					url: "http://opj0cbfmf.bkt.clouddn.com/Part.3%20Lasse%20Lindh%20-%20Hush.mp3",
+					pic: "http://opj0cbfmf.bkt.clouddn.com/hush.jpg",
+				}
+			});
+		</script>
+<div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":0,"theme":"#FADFA3","loop":1,"video":{"url":"http://www.iqiyi.com/v_19rr8v4hfo.html","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"}});</script>
+<p>微博视频<br><div id="dplayer1" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer1 = new DPlayer({"element":document.getElementById("dplayer1"),"video":{"url":"http://t.cn/RN78qlQ"}});</script></p>
 <p>本文地址 <a href="http://zhaocy.github.io/2017-09-23-视频测试/">http://zhaocy.github.io/2017-09-23-视频测试/</a> GO!</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
       
@@ -1189,5 +1200,4 @@
 
   
 
-</body>
-</html>
+<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"></link>
