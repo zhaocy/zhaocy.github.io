@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[视频测试]]></title>
     <url>%2F2017-09-23-%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95%2F</url>
-    <content type="text"><![CDATA[new APlayer({ element: document.getElementById("aplayer0"), narrow: false, autoplay: false, showlrc: 0, music: { title: "HUSH", author: "Lasse Lindh", url: "http://opj0cbfmf.bkt.clouddn.com/Part.3%20Lasse%20Lindh%20-%20Hush.mp3", pic: "http://opj0cbfmf.bkt.clouddn.com/hush.jpg", } }); var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":0,"theme":"#FADFA3","loop":1,"video":{"url":"http://www.iqiyi.com/v_19rr8v4hfo.html","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"}}); 微博视频var dplayer1 = new DPlayer({"element":document.getElementById("dplayer1"),"theme":"#FADFA3","video":{"url":"http://open.iqiyi.com/developer/player_js/coopPlayerIndex.html?vid"}}); 本文地址 http://zhaocy.github.io/2017-09-23-视频测试/ GO!]]></content>
+    <content type="text"><![CDATA[new APlayer({ element: document.getElementById("aplayer0"), narrow: false, autoplay: false, showlrc: 0, music: { title: "HUSH", author: "Lasse Lindh", url: "http://opj0cbfmf.bkt.clouddn.com/Part.3%20Lasse%20Lindh%20-%20Hush.mp3", pic: "http://opj0cbfmf.bkt.clouddn.com/hush.jpg", } }); var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":0,"theme":"#FADFA3","loop":1,"video":{"url":"http://www.iqiyi.com/v_19rr8v4hfo.html","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"}}); 微博视频 本文地址 http://zhaocy.github.io/2017-09-23-视频测试/ GO!]]></content>
       <tags>
         <tag>在线视频</tag>
       </tags>
