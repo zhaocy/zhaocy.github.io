@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaocy.github.io/"/>
-  <updated>2017-11-16T02:30:42.562Z</updated>
+  <updated>2017-11-16T02:32:27.510Z</updated>
   <id>http://zhaocy.github.io/</id>
   
   <author>
@@ -20,10 +20,9 @@
     <link href="http://zhaocy.github.io/2017-11-16-%E6%8F%90%E4%BA%A4%E6%95%88%E7%8E%87%E7%9A%84Mac%E6%8A%80%E5%B7%A7/"/>
     <id>http://zhaocy.github.io/2017-11-16-提交效率的Mac技巧/</id>
     <published>2017-11-16T01:40:33.000Z</published>
-    <updated>2017-11-16T02:30:42.562Z</updated>
+    <updated>2017-11-16T02:32:27.510Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>[TOC]</p>
-<h2 id="系统原生"><a href="#系统原生" class="headerlink" title="系统原生"></a>系统原生</h2><p>系统自带的功能、快捷键等。</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h2 id="系统原生"><a href="#系统原生" class="headerlink" title="系统原生"></a>系统原生</h2><p>系统自带的功能、快捷键等。</p>
 <h3 id="快捷键功能篇"><a href="#快捷键功能篇" class="headerlink" title="快捷键功能篇"></a>快捷键功能篇</h3><h4 id="强制退出程序"><a href="#强制退出程序" class="headerlink" title="强制退出程序"></a>强制退出程序</h4><blockquote>
 <p>Option-Command-Esc</p>
 </blockquote>
@@ -51,6 +50,7 @@
 <p>option+shift+K</p>
 </blockquote>
 <p>在任意输入框中，按option+shift+K组合键。</p>
+<a id="more"></a>
 <h4 id="微调音量亮度"><a href="#微调音量-亮度" class="headerlink" title="微调音量/亮度"></a>微调音量/亮度</h4><blockquote>
 <p>option + shift</p>
 </blockquote>
@@ -78,8 +78,34 @@
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h2 id=&quot;系统原生&quot;&gt;&lt;a href=&quot;#系统原生&quot; class=&quot;headerlink&quot; title=&quot;系统原生&quot;&gt;&lt;/a&gt;系统原生&lt;/h2&gt;&lt;p
+      &lt;h2 id=&quot;系统原生&quot;&gt;&lt;a href=&quot;#系统原生&quot; class=&quot;headerlink&quot; title=&quot;系统原生&quot;&gt;&lt;/a&gt;系统原生&lt;/h2&gt;&lt;p&gt;系统自带的功能、快捷键等。&lt;/p&gt;
+&lt;h3 id=&quot;快捷键功能篇&quot;&gt;&lt;a href=&quot;#快捷键功能篇&quot; class=&quot;headerlink&quot; title=&quot;快捷键功能篇&quot;&gt;&lt;/a&gt;快捷键功能篇&lt;/h3&gt;&lt;h4 id=&quot;强制退出程序&quot;&gt;&lt;a href=&quot;#强制退出程序&quot; class=&quot;headerlink&quot; title=&quot;强制退出程序&quot;&gt;&lt;/a&gt;强制退出程序&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;Option-Command-Esc&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当你遇到整个 Finder 卡死，Dock 栏右键都点不开，系统一直转圈圈，根本没办法强制重启 Finder 的时候：按 Option-Command-Esc 来打开强制退出应用程序，亲测有效。&lt;br&gt;几种死机时重启 Finder 方法的强力程度：&lt;br&gt;Option-右键 强制重启 &amp;lt; 用 强制退出应用程序重启 &amp;lt; 用 Terminal 关闭 &amp;lt; 长按关机键强制关机。&lt;/p&gt;
+&lt;h4 id=&quot;向后退格&quot;&gt;&lt;a href=&quot;#向后退格&quot; class=&quot;headerlink&quot; title=&quot;向后退格&quot;&gt;&lt;/a&gt;向后退格&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;Fn + Delete&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在 Windows 下的 Del 键可以实现『向后退格』（删除光标后面的字符），Mac 下怎么实现呢？&lt;br&gt;用 Fn-Delete 就可以啦。&lt;/p&gt;
+&lt;h4 id=&quot;快速调到地址栏&quot;&gt;&lt;a href=&quot;#快速调到地址栏&quot; class=&quot;headerlink&quot; title=&quot;快速调到地址栏&quot;&gt;&lt;/a&gt;快速调到地址栏&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;command + L&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;浏览网页的时候，怎么快速跳到地址栏？&lt;br&gt;Command-L，功能和火狐的 F6 类似，聚焦到地址栏，直接修改内容。应该是常见快捷键吧，不过发现的时候高兴了好一会儿。&lt;/p&gt;
+&lt;h4 id=&quot;快速跳到桌面&quot;&gt;&lt;a href=&quot;#快速跳到桌面&quot; class=&quot;headerlink&quot; title=&quot;快速跳到桌面&quot;&gt;&lt;/a&gt;快速跳到桌面&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;command + D&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在保存文件的时候，按 Command-D 可以快速跳到桌面。&lt;br&gt;其他几个默认文件夹同理，快捷键都显示在 『菜单-前往』 里啦。&lt;/p&gt;
+&lt;h4 id=&quot;选中多个文件放至新文件夹&quot;&gt;&lt;a href=&quot;#选中多个文件放至新文件夹&quot; class=&quot;headerlink&quot; title=&quot;选中多个文件放至新文件夹&quot;&gt;&lt;/a&gt;选中多个文件放至新文件夹&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;control + command + N&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;选中多个文件，按 Control-Command-N 可以直接把它们放到一个新建文件夹中。&lt;/p&gt;
+&lt;h4 id=&quot;emoji表情&quot;&gt;&lt;a href=&quot;#emoji表情&quot; class=&quot;headerlink&quot; title=&quot;emoji表情&quot;&gt;&lt;/a&gt;emoji表情&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;control + command + space&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;速输Apple-logo&quot;&gt;&lt;a href=&quot;#速输Apple-logo&quot; class=&quot;headerlink&quot; title=&quot;速输Apple logo&quot;&gt;&lt;/a&gt;速输Apple logo&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;option+shift+K&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在任意输入框中，按option+shift+K组合键。&lt;/p&gt;
     
     </summary>
     
