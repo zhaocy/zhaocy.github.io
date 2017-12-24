@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[使用Mweb发布CSDN]]></title>
+    <url>%2F2017-12-24-%E4%BD%BF%E7%94%A8Mweb%E5%8F%91%E5%B8%83CSDN%2F</url>
+    <content type="text"><![CDATA[MWeb / 偏好设置 选择Metaweblog API, CSDN的api地址为:http://write.blog.csdn.net/xmlrpc/index 发布时的时候，不要勾选发布为Markdown。 本文地址 http://zhaocy.github.io/2017-12-24-使用Mweb发布CSDN/ GO!]]></content>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[警示]]></title>
     <url>%2F2017-12-16-%E8%AD%A6%E7%A4%BA%2F</url>
     <content type="text"><![CDATA[我们始终不缺少解决问题的办法，我们缺少的是改变习惯的决心和勇气！！！ 本文地址 http://zhaocy.github.io/2017-12-16-警示/ GO!]]></content>

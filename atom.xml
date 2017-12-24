@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaocy.github.io/"/>
-  <updated>2017-12-15T16:36:45.834Z</updated>
+  <updated>2017-12-24T14:25:52.552Z</updated>
   <id>http://zhaocy.github.io/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Mweb发布CSDN</title>
+    <link href="http://zhaocy.github.io/2017-12-24-%E4%BD%BF%E7%94%A8Mweb%E5%8F%91%E5%B8%83CSDN/"/>
+    <id>http://zhaocy.github.io/2017-12-24-使用Mweb发布CSDN/</id>
+    <published>2017-12-24T14:17:25.000Z</published>
+    <updated>2017-12-24T14:25:52.552Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>MWeb / 偏好设置</p>
+<p>选择<code>Metaweblog API</code>, CSDN的api地址为:<br><a href="http://write.blog.csdn.net/xmlrpc/index" target="_blank" rel="external">http://write.blog.csdn.net/xmlrpc/index</a></p>
+<p><img src="/2017-12-24-使用Mweb发布CSDN/csdn.jpeg" alt="csdn_publish"></p>
+<p>发布时的时候，不要勾选<code>发布为Markdown</code>。</p>
+<p>本文地址 <a href="http://zhaocy.github.io/2017-12-24-使用Mweb发布CSDN/">http://zhaocy.github.io/2017-12-24-使用Mweb发布CSDN/</a> GO!</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;MWeb / 偏好设置&lt;/p&gt;
+&lt;p&gt;选择&lt;code&gt;Metaweblog API&lt;/code&gt;, CSDN的api地址为:&lt;br&gt;&lt;a href=&quot;http://write
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://zhaocy.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>警示</title>
@@ -1033,38 +1059,6 @@
     
       &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;&lt;strong&gt;介绍&lt;/strong&gt;&lt;br&gt;这是一款实用的FTP、FTP SSL和SFTP客户端软件。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;安装&lt;/strong&gt;&lt;br&gt;打开应用
-    
-    </summary>
-    
-      <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
-    
-    
-      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-      <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
-    
-      <category term="破解" scheme="http://zhaocy.github.io/tags/%E7%A0%B4%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Shimo VPN客户端</title>
-    <link href="http://zhaocy.github.io/2017-08-29-Shimo-VPN%E5%AE%A2%E6%88%B7%E7%AB%AF/"/>
-    <id>http://zhaocy.github.io/2017-08-29-Shimo-VPN客户端/</id>
-    <published>2017-08-29T13:53:46.000Z</published>
-    <updated>2017-08-30T01:40:56.000Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><strong>介绍</strong><br>Shimo 是Mac下一款先进的VPN客户端，支持更多的协议。</p>
-<p><strong>下载</strong></p>
-<p><a href="https://pan.baidu.com/share/init?shareid=46814346&amp;uk=3355908067" target="_blank" rel="external">https://pan.baidu.com/share/init?shareid=46814346&amp;uk=3355908067</a> 密码：8c15</p>
-<p>本文地址 <a href="http://zhaocy.github.io/2017-08-29-Shimo-VPN客户端/">http://zhaocy.github.io/2017-08-29-Shimo-VPN客户端/</a> GO!</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;&lt;strong&gt;介绍&lt;/strong&gt;&lt;br&gt;Shimo 是Mac下一款先进的VPN客户端，支持更多的协议。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;下载&lt;/strong&gt;&lt;/p&gt;
-&lt;
     
     </summary>
     
