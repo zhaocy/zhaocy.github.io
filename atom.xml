@@ -142,11 +142,11 @@
   </entry>
   
   <entry>
-    <title>视频测试</title>
+    <title>HUSH!</title>
     <link href="http://zhaocy.github.io/2017-09-23-%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/"/>
     <id>http://zhaocy.github.io/2017-09-23-视频测试/</id>
     <published>2017-09-23T13:45:58.000Z</published>
-    <updated>2017-09-24T01:32:20.000Z</updated>
+    <updated>2017-12-24T12:34:36.024Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
@@ -163,15 +163,7 @@
 				}
 			});
 		</script>
-<div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":0,"theme":"#FADFA3","loop":1,"video":{"url":"http://www.iqiyi.com/v_19rr8v4hfo.html","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"}});</script><!-- dplayer used1 -->
-<p>微博视频</p>
-<iframe width="560" height="315" src="http://www.iqiyi.com/v_19rr8v4hfo.html" frameborder="0" allowfullscreen></iframe>
-
-
-
-
-
-
+<p>Hush！，中国台湾独立乐团，由主唱兼吉他手陈家伟（Hush）、鼓手谢曜舆（熊爸）以及贝斯手沈轩豪（Easy）组成[1]  。</p>
 <p>本文地址 <a href="http://zhaocy.github.io/2017-09-23-视频测试/">http://zhaocy.github.io/2017-09-23-视频测试/</a> GO!</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     
@@ -184,7 +176,7 @@
     </summary>
     
     
-      <category term="在线视频" scheme="http://zhaocy.github.io/tags/%E5%9C%A8%E7%BA%BF%E8%A7%86%E9%A2%91/"/>
+      <category term="音乐" scheme="http://zhaocy.github.io/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
