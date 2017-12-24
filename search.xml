@@ -22,8 +22,8 @@
   </entry>
   <entry>
     <title><![CDATA[HUSH!]]></title>
-    <url>%2F2017-09-23-%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95%2F</url>
-    <content type="text"><![CDATA[new APlayer({ element: document.getElementById("aplayer0"), narrow: false, autoplay: false, showlrc: 0, music: { title: "HUSH", author: "Lasse Lindh", url: "http://opj0cbfmf.bkt.clouddn.com/Part.3%20Lasse%20Lindh%20-%20Hush.mp3", pic: "http://opj0cbfmf.bkt.clouddn.com/hush.jpg", } }); Hush！，中国台湾独立乐团，由主唱兼吉他手陈家伟（Hush）、鼓手谢曜舆（熊爸）以及贝斯手沈轩豪（Easy）组成[1] 。 本文地址 http://zhaocy.github.io/2017-09-23-视频测试/ GO!]]></content>
+    <url>%2F2017-09-23-HUSH%2F</url>
+    <content type="text"><![CDATA[new APlayer({ element: document.getElementById("aplayer0"), narrow: false, autoplay: false, showlrc: 0, music: { title: "HUSH", author: "Lasse Lindh", url: "http://opj0cbfmf.bkt.clouddn.com/Part.3%20Lasse%20Lindh%20-%20Hush.mp3", pic: "http://opj0cbfmf.bkt.clouddn.com/hush.jpg", } }); Hush！，中国台湾独立乐团，由主唱兼吉他手陈家伟（Hush）、鼓手谢曜舆（熊爸）以及贝斯手沈轩豪（Easy）组成[1] 。 本文地址 http://zhaocy.github.io/2017-09-23-HUSH/ GO!]]></content>
       <tags>
         <tag>音乐</tag>
       </tags>
