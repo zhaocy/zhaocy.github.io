@@ -105,7 +105,7 @@
     <link href="http://zhaocy.github.io/2017-11-16-%E6%8F%90%E4%BA%A4%E6%95%88%E7%8E%87%E7%9A%84Mac%E6%8A%80%E5%B7%A7/"/>
     <id>http://zhaocy.github.io/2017-11-16-提交效率的Mac技巧/</id>
     <published>2017-11-16T01:40:33.000Z</published>
-    <updated>2017-11-25T01:55:32.414Z</updated>
+    <updated>2018-03-09T02:30:29.993Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h2 id="系统原生"><a href="#系统原生" class="headerlink" title="系统原生"></a>系统原生</h2><p>系统自带的功能、快捷键等。</p>
 <h3 id="快捷键功能篇"><a href="#快捷键功能篇" class="headerlink" title="快捷键功能篇"></a>快捷键功能篇</h3><h4 id="强制退出程序"><a href="#强制退出程序" class="headerlink" title="强制退出程序"></a>强制退出程序</h4><blockquote>
@@ -158,6 +158,23 @@
 <h4 id="速输域名"><a href="#速输域名" class="headerlink" title="速输域名"></a>速输域名</h4><p>在Safari浏览器中访问.com的域名，如baidu.com直接输入baidu/回车即可，也就是在域名后面加上“/”再回车即可快速访问。</p>
 <h2 id="软件拓展"><a href="#软件拓展" class="headerlink" title="软件拓展"></a>软件拓展</h2><p>通过额外的软件实现拓展功能。   </p>
 <h3 id="剪切功能"><a href="#剪切功能" class="headerlink" title="剪切功能"></a>剪切功能</h3><p>怀念 Windows 的 Ctrl-X 剪切文件？<br>Mac 下用 Command-C 配合 Option-Command-V 可以实现这个功能，但是如果想要直接得 Command-X 剪切文件的话，可以安装 XtraFinder。 </p>
+<h2 id="安装问题"><a href="#安装问题" class="headerlink" title="安装问题"></a>安装问题</h2><p>Mac提示已损坏的解决方法：</p>
+<blockquote>
+<p>安装提示“已损坏，移至废纸篓”，这是因为MacOS系统加强了安全机制，默认不允许用户自行下载安装应用程序，只能从Mac App Store里安装应用。</p>
+</blockquote>
+<p><strong>解决办法</strong>  </p>
+<ol>
+<li>打开终端</li>
+<li><p>输入代码</p>
+<blockquote>
+<p>sudo spctl –master-disable</p>
+</blockquote>
+</li>
+<li><p>回车输入电脑密码</p>
+</li>
+<li>打开系统偏好设置 » 安全性与隐私，若显示任何来源，大功告成；若没有此选项，一定是你前面的步骤不对</li>
+<li>再次安装软件  </li>
+</ol>
 <p>本文地址 <a href="http://zhaocy.github.io/2017-11-16-提交效率的Mac技巧/">http://zhaocy.github.io/2017-11-16-提交效率的Mac技巧/</a> GO!</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     
