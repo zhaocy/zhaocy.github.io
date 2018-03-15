@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaocy.github.io/"/>
-  <updated>2018-03-15T13:53:34.041Z</updated>
+  <updated>2018-03-15T13:58:52.654Z</updated>
   <id>http://zhaocy.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://zhaocy.github.io/2018-03-15-%E7%A7%BB%E5%8A%A8%E7%A1%AC%E7%9B%98%E5%AE%89%E8%A3%85windows-To-Go%E7%9A%84%E4%BD%93%E9%AA%8C/"/>
     <id>http://zhaocy.github.io/2018-03-15-移动硬盘安装windows-To-Go的体验/</id>
     <published>2018-03-15T13:27:14.000Z</published>
-    <updated>2018-03-15T13:53:34.041Z</updated>
+    <updated>2018-03-15T13:58:52.654Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><blockquote>
 <p><strong>Win to go是Mac和Win双系统的解决办法之一，或许不是最好，但也不赖！</strong></p>
@@ -40,6 +40,12 @@
 <p>方案实现</p>
 </blockquote>
 <p>（<strong>本文示例使用的是移动硬盘USB3.0</strong>）</p>
+<p><strong>准备工作：</strong></p>
+<ul>
+<li>硬盘硬盘、U盘、SSD</li>
+<li>windows10的镜像文件<a href="https://msdn.itellyou.cn" target="_blank" rel="external">这里可以下载</a></li>
+<li>有线的键盘、鼠标（安装windows时要用到）</li>
+</ul>
 <ol>
 <li><p>在windows系统下做引导盘</p>
 <p> <img src="/2018-03-15-移动硬盘安装windows-To-Go的体验/1.jpg" alt="1"></p>
