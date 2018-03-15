@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[移动硬盘安装windows To Go的体验]]></title>
+    <url>%2F2018-03-15-%E7%A7%BB%E5%8A%A8%E7%A1%AC%E7%9B%98%E5%AE%89%E8%A3%85windows-To-Go%E7%9A%84%E4%BD%93%E9%AA%8C%2F</url>
+    <content type="text"><![CDATA[Win to go是Mac和Win双系统的解决办法之一，或许不是最好，但也不赖！ – WTG是什么东东，可以用来干什么 windows To Go 简称WTG，就是把Windows镜像装在USB设备里，制作引导启动，将Win系统装在USB设备里。USB设备可以是U盘、移动硬盘、SSD+SSD3.0硬盘盒。 优点：解放了Macintosh HD硬盘空间，留作安装装Mac OSX 系统下的文件。 缺点： 1.需要随身携带USB设备； 2.本人希捷 USB3.0 移动硬盘在启动win10系统时，大致耗时半分钟（较慢），但是运行起来无卡顿现象。 方案实现 （本文示例使用的是移动硬盘USB3.0） 在windows系统下做引导盘 选项1.选择你的USB（作为系统盘）的设备，如U盘，移动硬盘。移动设备一定要把资料先备(teng)份(kong)，因为WTG会格式化你的USB设备。针对移动硬盘设备要强调的是无论此移动硬盘分区不分区都会被格式化，所以分区了的移动硬盘一定要备份好资料！备份好资料！备份好资料！选项2.下载好的iso格式Win10镜像（推荐去MSDN下载，因为本人用自己台式机镜像出来的Win10.iso失败了）解压，点击“浏览”选择Win10镜像sources文件夹下的install.wim文件；选项3.勾选VHD格式选项4.勾选UEFI+GPT 点击“创建” 耐心等待十几分钟到二十分钟的样子（速度取决你的设备），完成后会弹出窗口，提示创建成功！ 注意：a). 360安全卫士一定要关闭b). 建议不要在虚机上操作 2.在Mac 上，打开启动转换助理.app，点击菜单-&gt;操作-&gt;下载windows支持软件，这里是驱动驱动程序，备用，下一步安装好windows ，拷贝到windows系统安装即可。 3.将移动硬盘插入Mac电脑的USB接口上，点击 开机键，同时按住option健，选择EFI Boot，回车。然后 Win10准备界面→设备准备→重启→输入电脑用户名→设置开机→Cortana→“诗词名言”→登录到Win10界面了。至此，Win10基本安装成功。 接下来就是驱动：进入用之前BootCamp下载好的Win10驱动程序文件，双击Setup后，走完安装程序后，Win10就安装成功了。 本文地址 http://zhaocy.github.io/2018-03-15-移动硬盘安装windows-To-Go的体验/ GO!]]></content>
+      <categories>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>技巧</tag>
+        <tag>效率</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Mac快捷键]]></title>
     <url>%2F2018-03-11-MAC%E9%94%AE%E7%9B%98%E7%AC%A6%E5%90%88%E5%92%8C%E5%BF%AB%E6%8D%B7%E9%94%AE%2F</url>
     <content type="text"><![CDATA[MacBook 对于不同的软件都有一套快捷键，要全部记住它是不可能是的事情。一般软件都会自带快捷键提示，找起来不是很方便。MAC下有个快捷键提示的软件叫CheatSheet。默认常按“command”，在弹窗中会有快捷键提示。 MAC OS按键图形符号 本文地址 http://zhaocy.github.io/2018-03-11-MAC键盘符合和快捷键/ GO!]]></content>

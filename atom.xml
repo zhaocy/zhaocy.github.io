@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaocy.github.io/"/>
-  <updated>2018-03-12T09:16:24.002Z</updated>
+  <updated>2018-03-15T13:53:34.041Z</updated>
   <id>http://zhaocy.github.io/</id>
   
   <author>
@@ -14,6 +14,63 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>移动硬盘安装windows To Go的体验</title>
+    <link href="http://zhaocy.github.io/2018-03-15-%E7%A7%BB%E5%8A%A8%E7%A1%AC%E7%9B%98%E5%AE%89%E8%A3%85windows-To-Go%E7%9A%84%E4%BD%93%E9%AA%8C/"/>
+    <id>http://zhaocy.github.io/2018-03-15-移动硬盘安装windows-To-Go的体验/</id>
+    <published>2018-03-15T13:27:14.000Z</published>
+    <updated>2018-03-15T13:53:34.041Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><blockquote>
+<p><strong>Win to go是Mac和Win双系统的解决办法之一，或许不是最好，但也不赖！</strong></p>
+</blockquote>
+<p>–</p>
+<blockquote>
+<p>WTG是什么东东，可以用来干什么</p>
+</blockquote>
+<p>windows To Go 简称WTG，就是把Windows镜像装在USB设备里，制作引导启动，将Win系统装在USB设备里。USB设备可以是U盘、移动硬盘、SSD+SSD3.0硬盘盒。</p>
+<ul>
+<li><p>优点：解放了Macintosh HD硬盘空间，留作安装装Mac OSX 系统下的文件。</p>
+</li>
+<li><p>缺点：<br>  1.需要随身携带USB设备；<br>  2.本人希捷 USB3.0 移动硬盘在启动win10系统时，大致耗时半分钟（较慢），但是运行起来无卡顿现象。</p>
+</li>
+</ul>
+<blockquote>
+<p>方案实现</p>
+</blockquote>
+<p>（<strong>本文示例使用的是移动硬盘USB3.0</strong>）</p>
+<ol>
+<li><p>在windows系统下做引导盘</p>
+<p> <img src="/2018-03-15-移动硬盘安装windows-To-Go的体验/1.jpg" alt="1"></p>
+</li>
+</ol>
+<p>选项1.选择你的USB（作为系统盘）的设备，如U盘，移动硬盘。移动设备一定要把资料先备(teng)份(kong)，因为WTG会格式化你的USB设备。针对移动硬盘设备要强调的是无论此移动硬盘分区不分区都会被格式化，所以分区了的移动硬盘一定要备份好资料！备份好资料！备份好资料！<br>选项2.下载好的iso格式Win10镜像（推荐去MSDN下载，因为本人用自己台式机镜像出来的Win10.iso失败了）解压，点击“浏览”选择Win10镜像sources文件夹下的install.wim文件；<br>选项3.勾选VHD格式选项4.勾选UEFI+GPT</p>
+<p>点击“创建”  耐心等待十几分钟到二十分钟的样子（速度取决你的设备），完成后会弹出窗口，提示创建成功！ </p>
+<p>注意：<br>a). 360安全卫士一定要关闭<br>b). 建议不要在虚机上操作</p>
+<p>2.在Mac 上，打开启动转换助理.app，点击菜单-&gt;操作-&gt;下载windows支持软件，这里是驱动驱动程序，备用，下一步安装好windows ，拷贝到windows系统安装即可。</p>
+<p>3.将移动硬盘插入Mac电脑的USB接口上，点击 开机键，同时按住option健，选择EFI Boot，回车。然后 Win10准备界面→设备准备→重启→输入电脑用户名→设置开机→Cortana→“诗词名言”→登录到Win10界面了。至此，Win10基本安装成功。</p>
+<p><img src="/2018-03-15-移动硬盘安装windows-To-Go的体验/2.jpg" alt="2"></p>
+<p>接下来就是驱动：进入用之前BootCamp下载好的Win10驱动程序文件，双击Setup后，走完安装程序后，Win10就安装成功了。</p>
+<p>本文地址 <a href="http://zhaocy.github.io/2018-03-15-移动硬盘安装windows-To-Go的体验/">http://zhaocy.github.io/2018-03-15-移动硬盘安装windows-To-Go的体验/</a> GO!</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Win to go是Mac和Win双系统的解决办法之一，或许不是最好，但也不赖！&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
+    
+    
+      <category term="技巧" scheme="http://zhaocy.github.io/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+      <category term="效率" scheme="http://zhaocy.github.io/tags/%E6%95%88%E7%8E%87/"/>
+    
+  </entry>
   
   <entry>
     <title>Mac快捷键</title>
@@ -781,37 +838,6 @@
     
     
       <category term="小说" scheme="http://zhaocy.github.io/tags/%E5%B0%8F%E8%AF%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vSSH</title>
-    <link href="http://zhaocy.github.io/2017-08-30-vSSH/"/>
-    <id>http://zhaocy.github.io/2017-08-30-vSSH/</id>
-    <published>2017-08-30T01:51:00.000Z</published>
-    <updated>2017-08-30T01:54:43.000Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><strong>介绍</strong></p>
-<p>vSSH是一款SSH客户端，可以通过它连接其他的程序，还可以分享自己的密钥。支持SSH和Telnet协议。虽然Mac跟SSH是无缝结合，但是vSSH工具还比较方便的管理你的连接信息。</p>
-<p><strong>下载</strong><br><a href="http://pan.baidu.com/s/1bM0gz0" target="_blank" rel="external">http://pan.baidu.com/s/1bM0gz0</a> 密码：55ac</p>
-<p>本文地址 <a href="http://zhaocy.github.io/2017-08-30-vSSH/">http://zhaocy.github.io/2017-08-30-vSSH/</a> GO!</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;&lt;strong&gt;介绍&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;vSSH是一款SSH客户端，可以通过它连接其他的程序，还可以分享自己的密钥。支持SSH和Telnet协议。虽然Mac跟S
-    
-    </summary>
-    
-      <category term="Mac" scheme="http://zhaocy.github.io/categories/Mac/"/>
-    
-    
-      <category term="工具" scheme="http://zhaocy.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-      <category term="软件" scheme="http://zhaocy.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
-    
-      <category term="破解" scheme="http://zhaocy.github.io/tags/%E7%A0%B4%E8%A7%A3/"/>
     
   </entry>
   
